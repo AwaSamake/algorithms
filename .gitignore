@@ -1,0 +1,6 @@
+###IntelliJ###
+.DS_Store
+*.iml
+*.ipr
+*.iws
+.idea/
