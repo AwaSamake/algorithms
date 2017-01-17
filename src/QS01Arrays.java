@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * Created by lihao on 1/6/17.
  * Cracking the Coding Interview
@@ -12,7 +15,17 @@ public class QS01Arrays {
      *     What if you cannot use additional data structures?
      *
      */
-
+    boolean isUnique(String input) {
+        boolean[] isInInput = new boolean[128];
+        for (char c : input.toCharArray()) {
+            int ASSCII = (int) c;
+            if (isInInput[ASSCII]) {
+                return false;
+            }
+            isInInput[ASSCII] = true;
+        }
+        return true;
+    }
 
     /**
      *
@@ -20,7 +33,13 @@ public class QS01Arrays {
      *     Given two strings, write a method to decide if one is a permutation of the other.
      *
      */
-
+    boolean isPermutation(String s1, String s2) {
+        char[] arr1 = s1.toCharArray();
+        char[] arr2 = s2.toCharArray();
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        return arr1.toString().equals(arr2.toString());
+    }
 
     /**
      *
@@ -32,6 +51,22 @@ public class QS01Arrays {
      *     perform this operation in place.)
      *
      */
+    char[] URLify(char[] input, int length) {
+        char[] output = new char[input.length];
+        int i = 0, j = 0;
+        while (i < length) {
+            if (input[i] == ' ') {
+                output[j++] = '%';
+                output[j++] = '2';
+                output[j++] = '0';
+                ++i;
+            }
+            else {
+                output[j++] = input[i++];
+            }
+        }
+        return output;
+    }
 
 
     /**
@@ -43,7 +78,22 @@ public class QS01Arrays {
      *     The palindrome does not need to be limited to just dictionary words
      *
      */
-
+    boolean isPermutationOfPalindrome(String word) {
+        int[] charCount = new int[128];
+        for (char c : word.toCharArray()) {
+            charCount[c]++;
+        }
+        boolean oddChar = false;
+        for (int count : charCount) {
+            if (count % 2 != 0) {
+                if (oddChar == true) {
+                    return false;
+                }
+                oddChar = true;
+            }
+        }
+        return true;
+    }
 
     /**
      *
@@ -53,6 +103,39 @@ public class QS01Arrays {
      *     Write a function to check if they are less or one edit (or zero edits) away.
      *
      */
+    boolean isOneAway(String s1, String s2) {
+        int len1, len2;
+        if (s1.length() < s2.length()) {
+            len1 = s1.length();
+            len2 = s2.length();
+        } else {
+            len1 = s2.length();
+            len2 = s1.length();
+        }
+        if (len2 - len1 > 1) {
+            return false;
+        }
+
+        int index1 = 0, index2 = 0;
+        boolean edited = false;
+        while (index1 < len1 && index2 < len2) {
+            if (s1.charAt(index1) == s2.charAt(index2)) {
+                ++index1;
+                ++index2;
+            } else {
+                if (edited) {
+                    return false;
+                }
+                ++index2;
+                if (len1 == len2) {
+                    ++index1;
+                }
+                edited = true;
+            }
+        }
+        return true;
+    }
+
 
     /**
      *
@@ -64,15 +147,57 @@ public class QS01Arrays {
      *     uppercase and lowercase letter (a-z).
      *
      */
+    String comprese(String input) {
+        StringBuilder temp = new StringBuilder();
+        char curChar = input.charAt(0);
+        int counter = 1;
+        for (char c : input.substring(1).toCharArray()) {
+            if (curChar == c) {
+                counter++;
+            } else {
+                temp.append(curChar);
+                temp.append(counter);
+                if (temp.length() >= input.length()) {
+                    return input;
+                }
+                counter = 1;
+                curChar = c;
+            }
+        }
+        temp.append(curChar);
+        temp.append(counter);
+        if (temp.length() >= input.length()) {
+            return input;
+        }
+        return temp.toString();
+    }
+
 
     /**
      *
-     * 1.7 ROtate Matrix
+     * 1.7 Rotate Matrix
      *     Given an image represented by an NxN matrix, where each pixel in the image is 4
      *     bytes, weite a method to rotate the image by 90 degrees.
      *     Can you do this in place?
      *
      */
+    char[][] rotate(char[][] image) {
+        System.out.println();
+        int length = image.length;
+        int row = 0, col = 0;
+        while (row < length / 2) {
+            for (col = row; col < length - row -1; col++) {
+//                System.out.println(row + ", " + col);
+                char temp = image[row][col];
+                image[row][col] = image[col][length-1-row];
+                image[col][length-1-row] = image[length-1-row][length-1-col];
+//                image[length-1-row][length-1-col] = image[row][length-1-col];
+//                image[row][length-1-col] = temp;
+            }
+            row++;
+        }
+        return image;
+    }
 
     /**
      *
@@ -81,7 +206,35 @@ public class QS01Arrays {
      *     and column are set to 0.
      *
      */
+    int[][] zeroMatrix(int[][] matrix) {
+        boolean[] rowZero = new boolean[matrix.length];
+        boolean[] colZero = new boolean[matrix[0].length];
+        for (int i = 0; i < matrix.length; ++i) {
+            for (int j = 0; j < matrix[0].length; ++j) {
+                if (matrix[i][j] == 0) {
+                    rowZero[i] = true;
+                    colZero[j] = true;
+                }
+            }
+        }
 
+        for (int i = 0; i < matrix.length; ++i) {
+            if (rowZero[i] == true) {
+                for (int c = 0; c < matrix[0].length; ++c) {
+                    matrix[i][c] = 0;
+                }
+            }
+
+        }
+        for (int j = 0; j < matrix[0].length; ++j) {
+            if (colZero[j] == true) {
+                for (int r = 0; r < matrix.length; ++r) {
+                    matrix[r][j] = 0;
+                }
+            }
+        }
+        return matrix;
+    }
 
 
     /**
@@ -93,6 +246,9 @@ public class QS01Arrays {
      *     only one call to isSubstring (e.g., "waterbottle" is a rotation of "erbottlewat").
      *
      */
-
+    boolean isSubstring(String s1, String s2) {
+        String s1s1 = s1 + s1;
+        return s1s1.contains(s2);
+    }
 
 }
