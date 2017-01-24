@@ -21,11 +21,10 @@ public class QS01Arrays {
 
         boolean[] isInInput = new boolean[128];
         for (char c : input.toCharArray()) {
-            int ASCII = c;
-            if (isInInput[ASCII]) {
+            if (isInInput[c]) {
                 return false;
             }
-            isInInput[ASCII] = true;
+            isInInput[c] = true;
         }
         return true;
     }
@@ -57,7 +56,7 @@ public class QS01Arrays {
         char[] arr2 = s2.toCharArray();
         Arrays.sort(arr1);
         Arrays.sort(arr2);
-        return arr1.toString().equals(arr2.toString());
+        return String.valueOf(arr1).equals(String.valueOf(arr2));
     }
 
     // When char set is ASCII, this will be more efficient
@@ -88,21 +87,29 @@ public class QS01Arrays {
      *     perform this operation in place.)
      *
      */
-    char[] URLify(char[] input, int length) {
-        char[] output = new char[input.length];
-        int i = 0, j = 0;
-        while (i < length) {
+    void URLify(char[] input, int trueLength) {
+        int spaceCount = 0;
+        for (int i = 0; i < trueLength; ++i) {
             if (input[i] == ' ') {
-                output[j++] = '%';
-                output[j++] = '2';
-                output[j++] = '0';
-                ++i;
-            }
-            else {
-                output[j++] = input[i++];
+                spaceCount++;
             }
         }
-        return output;
+        if (spaceCount == 0) { return; }
+
+        int end = trueLength + spaceCount * 2;
+        input[end--] = '\0';
+        int index = trueLength - 1;
+        while (end >= 0) {
+            if (input[index] == ' ') {
+                input[end--] = '0';
+                input[end--] = '2';
+                input[end--] = '%';
+                index--;
+            } else {
+                input[index--] = input[end--];
+            }
+        }
+
     }
 
 
@@ -123,7 +130,7 @@ public class QS01Arrays {
         boolean oddChar = false;
         for (int count : charCount) {
             if (count % 2 != 0) {
-                if (oddChar == true) {
+                if (oddChar) {
                     return false;
                 }
                 oddChar = true;
@@ -219,20 +226,7 @@ public class QS01Arrays {
      *
      */
     char[][] rotate(char[][] image) {
-        System.out.println();
-        int length = image.length;
-        int row = 0, col = 0;
-        while (row < length / 2) {
-            for (col = row; col < length - row -1; col++) {
-//                System.out.println(row + ", " + col);
-                char temp = image[row][col];
-                image[row][col] = image[col][length-1-row];
-                image[col][length-1-row] = image[length-1-row][length-1-col];
-//                image[length-1-row][length-1-col] = image[row][length-1-col];
-//                image[row][length-1-col] = temp;
-            }
-            row++;
-        }
+
         return image;
     }
 
@@ -256,7 +250,7 @@ public class QS01Arrays {
         }
 
         for (int i = 0; i < matrix.length; ++i) {
-            if (rowZero[i] == true) {
+            if (rowZero[i]) {
                 for (int c = 0; c < matrix[0].length; ++c) {
                     matrix[i][c] = 0;
                 }
@@ -264,7 +258,7 @@ public class QS01Arrays {
 
         }
         for (int j = 0; j < matrix[0].length; ++j) {
-            if (colZero[j] == true) {
+            if (colZero[j]) {
                 for (int r = 0; r < matrix.length; ++r) {
                     matrix[r][j] = 0;
                 }
