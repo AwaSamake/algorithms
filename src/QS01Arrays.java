@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -15,14 +14,33 @@ public class QS01Arrays {
      *     What if you cannot use additional data structures?
      *
      */
+
+    // When the char set of String contained in ASCII
     boolean isUnique(String input) {
+        if (input.length() > 128) { return false; }
+
         boolean[] isInInput = new boolean[128];
         for (char c : input.toCharArray()) {
-            int ASSCII = (int) c;
-            if (isInInput[ASSCII]) {
+            int ASCII = c;
+            if (isInInput[ASCII]) {
                 return false;
             }
-            isInInput[ASSCII] = true;
+            isInInput[ASCII] = true;
+        }
+        return true;
+    }
+
+    // When the char is only lower case letters
+    boolean isUniqueLowerLetter(String input) {
+        if (input.length() > 26) { return false; }
+        int table = 0;
+        for (char c : input.toCharArray()) {
+            int value = c - 'a';
+            int mask = 1 << value;
+            if ((table & mask) > 0) {
+                return false;
+            }
+            table |= mask;
         }
         return true;
     }
@@ -33,12 +51,31 @@ public class QS01Arrays {
      *     Given two strings, write a method to decide if one is a permutation of the other.
      *
      */
+    // Clean and easy to understand, not optimal
     boolean isPermutation(String s1, String s2) {
         char[] arr1 = s1.toCharArray();
         char[] arr2 = s2.toCharArray();
         Arrays.sort(arr1);
         Arrays.sort(arr2);
         return arr1.toString().equals(arr2.toString());
+    }
+
+    // When char set is ASCII, this will be more efficient
+    boolean isPermutation2(String s1, String s2) {
+        if (s1.length() != s2.length()) { return false; }
+
+        int[] counter = new int[128];
+        for (char c: s1.toCharArray()) {
+            counter[c]++;
+        }
+
+        for (char c: s2.toCharArray()) {
+            counter[c]--;
+            if (counter[c] < 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
     /**
