@@ -231,29 +231,18 @@ public class QS01Arrays {
      *     uppercase and lowercase letter (a-z).
      *
      */
-    String comprese(String input) {
-        StringBuilder temp = new StringBuilder();
-        char curChar = input.charAt(0);
-        int counter = 1;
-        for (char c : input.substring(1).toCharArray()) {
-            if (curChar == c) {
-                counter++;
-            } else {
-                temp.append(curChar);
-                temp.append(counter);
-                if (temp.length() >= input.length()) {
-                    return input;
-                }
-                counter = 1;
-                curChar = c;
+    String compress(String str) {
+        StringBuilder compressed = new StringBuilder();
+        int count = 0;
+        for (int i = 0; i < str.length(); ++i) {
+            count++;
+            if (i+1 >= str.length() || str.charAt(i) != str.charAt(i+1)) {
+                compressed.append(str.charAt(i));
+                compressed.append(count);
+                count = 0;
             }
         }
-        temp.append(curChar);
-        temp.append(counter);
-        if (temp.length() >= input.length()) {
-            return input;
-        }
-        return temp.toString();
+        return compressed.toString();
     }
 
 
