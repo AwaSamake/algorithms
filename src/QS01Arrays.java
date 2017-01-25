@@ -182,32 +182,24 @@ public class QS01Arrays {
      *     Write a function to check if they are less or one edit (or zero edits) away.
      *
      */
-    boolean isOneAway(String s1, String s2) {
-        int len1, len2;
-        if (s1.length() < s2.length()) {
-            len1 = s1.length();
-            len2 = s2.length();
-        } else {
-            len1 = s2.length();
-            len2 = s1.length();
-        }
-        if (len2 - len1 > 1) {
-            return false;
-        }
 
-        int index1 = 0, index2 = 0;
+    boolean oneEditAway(String first, String second) {
+        if (first.length() == second.length()) {
+            return oneEditReplace(first, second);
+        } else if (first.length() - second.length() == 1) {
+            return oneEditRemove(first, second);
+        } else if (second.length() - first.length() == 1) {
+            return oneEditRemove(second, first);
+        }
+        return false;
+    }
+
+    private boolean oneEditReplace(String first, String second) {
         boolean edited = false;
-        while (index1 < len1 && index2 < len2) {
-            if (s1.charAt(index1) == s2.charAt(index2)) {
-                ++index1;
-                ++index2;
-            } else {
+        for (int i = 0; i < first.length(); ++i) {
+            if (first.charAt(i) != second.charAt(i)) {
                 if (edited) {
                     return false;
-                }
-                ++index2;
-                if (len1 == len2) {
-                    ++index1;
                 }
                 edited = true;
             }
@@ -215,6 +207,19 @@ public class QS01Arrays {
         return true;
     }
 
+    private boolean oneEditRemove(String longer, String shorter) {
+        boolean jumped = false;
+        for (int i = 0, j = 0; i < shorter.length(); ++i, ++j) {
+            if (shorter.charAt(i) != longer.charAt(i)) {
+                if (jumped) {
+                    return false;
+                }
+                jumped = true;
+                --j;
+            }
+        }
+        return true;
+    }
 
     /**
      *
