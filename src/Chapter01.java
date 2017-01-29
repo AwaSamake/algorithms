@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Arrays and List
  */
 
-public class QS01Arrays {
+class ArraysAndStrings {
     /**
      *
      * 1.1 Is Unique
