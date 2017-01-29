@@ -3,7 +3,9 @@
  * Chapter 03 - Stacks and Queues
  */
 
+import java.util.ArrayList;
 import java.util.EmptyStackException;
+import java.util.Stack;
 
 /**
  *
@@ -68,6 +70,36 @@ class FixedMultiStack {
  *     which returns the minimum element? Push, pop and min should all operate in O(1) time
  *
  */
+
+class MinStack {
+    private Stack<int> stack;
+    private Stack<int> mins;
+
+    public MinStack() {
+        stack = new Stack<int>();
+        mins = new Stack<int>();
+        mins.push(Integer.MAX_VALUE);
+    }
+
+    public void push(int value) {
+        stack.push(value);
+        if (value <= mins.peek()) {
+            mins.push(value);
+        }
+    }
+
+    public int pop() {
+        int val = stack.pop();
+        if (mins.peek() == val) {
+            mins.pop();
+        }
+        return val;
+    }
+
+    public int min() {
+        return mins.peek();
+    }
+}
 
 
 /**
