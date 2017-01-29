@@ -3,9 +3,7 @@
  * Chapter 03 - Stacks and Queues
  */
 
-import java.util.ArrayList;
-import java.util.EmptyStackException;
-import java.util.Stack;
+import java.util.*;
 
 /**
  *
@@ -235,3 +233,68 @@ class MyQueue <T> {
  *      and dequeueCat. You may use the build-in LinkedList data structure.
  *
  */
+
+class Animal {
+    private static int counter;
+    private int index;
+    private String name;
+
+    public Animal(String name) {
+        this.name = name;
+        index = counter;
+        ++counter;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+}
+
+class Cat extends Animal {
+
+    public Cat(String name) {
+        super(name);
+    }
+}
+
+class Dog extends Animal {
+
+    public Dog(String name) {
+        super(name);
+    }
+}
+
+class AnimalQueue {
+    private LinkedList<Cat> cats;
+    private LinkedList<Dog> dogs;
+
+    public AnimalQueue() {
+        cats = new LinkedList<>();
+        dogs = new LinkedList<>();
+    }
+
+    public void enqueue(Animal animal) {
+        if (animal instanceof Cat) {
+            cats.add((Cat) animal);
+        } else {
+            dogs.add((Dog) animal);
+        }
+    }
+
+    public Animal dequeueAny() {
+        if (cats.isEmpty()) {
+            return dogs.poll();
+        } else if (dogs.isEmpty()) {
+            return cats.poll();
+        }
+        return (cats.getFirst().getIndex() < dogs.getFirst().getIndex()) ? cats.removeFirst() : dogs.removeFirst();
+    }
+
+    public Cat dequeueCat() {
+        return cats.poll();
+    }
+
+    public Dog dequeueDog() {
+        return dogs.poll();
+    }
+}
