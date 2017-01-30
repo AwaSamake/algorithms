@@ -2,8 +2,7 @@ import java.util.Arrays;
 
 /**
  * Created by lihao on 1/6/17.
- * Cracking the Coding Interview
- * Arrays and List
+ * Chapter 01 - Arrays and List
  */
 
 class ArraysAndStrings {
