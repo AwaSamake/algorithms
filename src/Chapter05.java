@@ -13,12 +13,13 @@
  *     not, for example, have j = 3 and i = 2, because M could not fully fit between bit
  *     3 and bit 2.
  *     Example:
- *         Input:  N = 10000000000, M = 10011, j = 2, j =6
+ *         Input:  N = 10000000000, M = 10011, i = 2, j =6
  *         Output: N = 10001001100
  *
  *
  */
 class Insertion {
+    // My Solution
     public int updateBits(int m, int n, int i, int j) {
         int mask = 0;
         for (int index = i; index <= j; ++index) {
@@ -31,6 +32,20 @@ class Insertion {
         n |= m;
         return n;
     }
+
+    // Book Solution
+    public int updateBits2(int m, int n, int i, int j) {
+        int AllOne = ~0;
+        int leftMask = (AllOne << (j + 1));
+        int rightMask = (1 << i) - 1;
+        int mask = leftMask | rightMask;
+        int n_cleared = n & mask;
+        int m_shifted = m << i;
+        int answer = n_cleared | m_shifted;
+        return answer;
+    }
+
+
 }
 
 /**
