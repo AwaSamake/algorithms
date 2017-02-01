@@ -199,6 +199,7 @@ class NextNumber {
  *
  */
 
+// n is power of 2
 
 /**
  *
