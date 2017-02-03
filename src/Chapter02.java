@@ -63,6 +63,23 @@ class RemoveDuplicates {
         }
         return head;
     }
+
+    public Node removeDups(Node head) {
+        Node current = head;
+        Node runnner = current;
+        while (current.next != null) {
+            while (runnner.next != null) {
+                if (current.data == runnner.next.data) {
+                    runnner.next = runnner.next.next;
+                } else {
+                    runnner = runnner.next;
+                }
+            }
+            current = current.next;
+            runnner = current;
+        }
+        return head;
+    }
 }
 
 
