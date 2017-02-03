@@ -91,7 +91,7 @@ class RemoveDuplicates {
  */
 
 class KToLast {
-
+    // Solution #1
     public Node KthToLast(Node head, int k) {
         int count = 0;
         Node n = head;
@@ -106,6 +106,19 @@ class KToLast {
         }
         return n;
     }
+
+    // Solution #2
+    public int printKthToLast(Node head, int k) {
+        if (head == null) {
+            return 1;
+        }
+        int index = printKthToLast(head.next, k);
+        if (index == k) {
+            System.out.println(head.data);
+        }
+        return index + 1;
+    }
+
 
 }
 
