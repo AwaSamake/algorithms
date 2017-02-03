@@ -90,6 +90,25 @@ class RemoveDuplicates {
  *
  */
 
+class KToLast {
+
+    public Node KthToLast(Node head, int k) {
+        int count = 0;
+        Node n = head;
+        while (n.next != null) {
+            n = n.next;
+            ++count;
+        }
+        int steps = count - k;
+        n = head;
+        while (steps > 0) {
+            n = n.next;
+        }
+        return n;
+    }
+
+}
+
 
 /**
  *
