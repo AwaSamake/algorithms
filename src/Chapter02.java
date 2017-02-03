@@ -119,6 +119,22 @@ class KToLast {
         return index + 1;
     }
 
+    // Solution #3
+    public Node KthToLast3(Node head, int k) {
+        Node p1 = head;
+        Node p2 = head;
+        for (int i = 0; i < k; ++i) {
+            if (p2 == null) {
+                return null;
+            }
+            p2 = p2.next;
+        }
+        while (p2 != null) {
+            p2 = p2.next;
+            p1 = p1.next;
+        }
+        return p1;
+    }
 
 }
 
