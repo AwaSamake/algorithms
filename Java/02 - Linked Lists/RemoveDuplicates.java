@@ -9,26 +9,10 @@
 import java.util.HashSet;
 
 class RemoveDuplicates {
-	public static void main(String[] args) {
-		Node head = new Node(1);
-		head.appendTail(head, 2);
-		head.appendTail(head, 2);
-		head.appendTail(head, 3);
-		head.appendTail(head, 4);
-		head.appendTail(head, 5);
-		head.appendTail(head, 5);
-		head.appendTail(head, 1);
-		head.appendTail(head, 7);
-		head.appendTail(head, 7);
-				
-		head.printList(head);
-		head = removeDup(head);
-		head.printList(head);
-		head = removeDups(head);
-		head.printList(head);
-	}
-
-	public static Node removeDup(Node head) {
+	/**
+	 * Method #1:
+	 */
+	public static Node removeDuplicate1(Node head) {
 		Node n = head;
 		HashSet<Integer> elements = new HashSet<>();
 		elements.add(head.data);
@@ -43,7 +27,10 @@ class RemoveDuplicates {
 		return head;
 	}
 
-	public static Node removeDups(Node head) {
+	/**
+	 * Method #2:
+	 */
+	public static Node removeDuplicate2(Node head) {
 		Node current = head;
 		Node runnner = current;
 		while (current.next != null) {
@@ -59,4 +46,27 @@ class RemoveDuplicates {
 		}
 		return head;
 	}
+	
+	/**
+	 * Testing remove duplicate methods
+	 */
+	public static void main(String[] args) {
+		Node head = new Node(1);
+		head.appendTail(head, 2);
+		head.appendTail(head, 2);
+		head.appendTail(head, 3);
+		head.appendTail(head, 4);
+		head.appendTail(head, 5);
+		head.appendTail(head, 5);
+		head.appendTail(head, 1);
+		head.appendTail(head, 7);
+		head.appendTail(head, 7);
+				
+		head.printList(head);
+		head = removeDuplicate1(head);
+		head.printList(head);
+		head = removeDuplicate2(head);
+		head.printList(head);
+	}
+	
 }
