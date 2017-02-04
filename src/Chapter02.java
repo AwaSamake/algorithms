@@ -1,4 +1,3 @@
-import java.util.HashMap;
 import java.util.HashSet;
 
 /**
@@ -135,7 +134,6 @@ class KToLast {
         }
         return p1;
     }
-
 }
 
 
@@ -160,7 +158,6 @@ class  DeleteMiddleNode {
         n.next = n.next.next;
         return true;
     }
-
 }
 
 
