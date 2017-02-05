@@ -1,6 +1,8 @@
-//
-// Node.java
-// Created by Lihao on 2/4/17.
+/**
+ *
+ * 2.0 Node
+ *
+ */
 
 public class Node {
     Node next = null;
