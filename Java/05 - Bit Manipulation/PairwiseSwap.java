@@ -6,6 +6,14 @@
  *
  */
 class PairwiseSwap {
+    public int swap(int a) {
+        int oddMask = 0xaaaaaaaa;
+        int evenMask = 0x55555555;
+        int oddShifted = (a & oddMask) >> 1;
+        int evenShifted = (a & evenMask) << 1;
+        return oddShifted | evenShifted;
+    }
+    
 	public static void main(String[] args) {
 		
 	}
