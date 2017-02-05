@@ -6,6 +6,6 @@
  */
 class Debugger {
 	public static void main(String[] args) {
-		
+		System.out.println("n is power of 2");
 	}
 }
