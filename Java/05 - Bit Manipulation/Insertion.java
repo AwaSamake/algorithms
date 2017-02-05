@@ -13,7 +13,34 @@
  *
  *
  */
+
 class Insertion {
+    // My Solution
+    public static int updateBits(int m, int n, int i, int j) {
+        int mask = 0;
+        for (int index = i; index <= j; ++index) {
+            mask |= (1 << i);
+        }
+        mask = ~ mask;
+        n &= mask;
+
+        m = (m << i);
+        n |= m;
+        return n;
+    }
+
+    // Book Solution
+    public static int updateBits2(int m, int n, int i, int j) {
+        int AllOne = ~0;
+        int leftMask = (AllOne << (j + 1));
+        int rightMask = (1 << i) - 1;
+        int mask = leftMask | rightMask;
+        int n_cleared = n & mask;
+        int m_shifted = m << i;
+        int answer = n_cleared | m_shifted;
+        return answer;
+    }
+    
 	public static void main(String[] args) {
 		
 	}
