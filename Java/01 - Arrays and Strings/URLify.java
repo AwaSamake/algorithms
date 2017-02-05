@@ -10,6 +10,29 @@
  */
 
 class URLify {
+    void URLify(char[] input, int trueLength) {
+        int spaceCount = 0;
+        for (int i = 0; i < trueLength; ++i) {
+            if (input[i] == ' ') {
+                spaceCount++;
+            }
+        }
+        if (spaceCount == 0) { return; }
+        int end = trueLength + spaceCount * 2;
+        input[end--] = '\0';
+        int index = trueLength - 1;
+        while (end >= 0) {
+            if (input[index] == ' ') {
+                input[end--] = '0';
+                input[end--] = '2';
+                input[end--] = '%';
+                index--;
+            } else {
+                input[index--] = input[end--];
+            }
+        }
+    }
+    
 	public static void main(String[] args) {
 		
 	}
