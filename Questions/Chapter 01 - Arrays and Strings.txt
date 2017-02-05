@@ -47,6 +47,7 @@
  *
  */
 
+
 /**
  *
  * 1.6 String Compression
@@ -58,14 +59,16 @@
  *
  */
 
+
 /**
  *
- * 1.7 ROtate Matrix
+ * 1.7 Rotate Matrix
  *     Given an image represented by an NxN matrix, where each pixel in the image is 4
  *     bytes, weite a method to rotate the image by 90 degrees.
  *     Can you do this in place?
  *
  */
+
 
 /**
  *
@@ -74,7 +77,6 @@
  *     and column are set to 0.
  *
  */
-
 
 
 /**
