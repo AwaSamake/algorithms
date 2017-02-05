@@ -13,7 +13,58 @@
  *     sub-stack.
  *
  */
-class StackOfPlates {
+
+class SetOfStacks {
+    private int capacity;
+    private ArrayList<Stack> stacks;
+
+    public SetOfStacks(int capacity) {
+        this.capacity = capacity;
+        stacks.add(new Stack());
+    }
+
+
+    public void push(int val) {
+        Stack last = lastStack();
+        if (last.size() >= capacity) {
+            stacks.add(new Stack());
+            lastStack().push(val);
+        } else {
+            last.push(val);
+        }
+    }
+
+    public int pop() {
+        Stack last = lastStack();
+        if (last.isEmpty()) {
+            throw new EmptyStackException();
+        }
+        int val = (int) last.pop();
+        if (last.isEmpty()) {
+            stacks.remove(stacks.size() - 1);
+        }
+        return val;
+    }
+
+    public int popAt(int index) {
+        if (index >= 0 && index < stacks.size()) {
+            int val = (int) stacks.get(index).pop();
+            if (stacks.get(index).isEmpty()) {
+                stacks.remove(index);
+            }
+            return val;
+        }
+        throw new EmptyStackException();
+    }
+
+    public Stack lastStack() {
+        if (stacks.size() == 0) { return null; }
+
+        return stacks.get(stacks.size() - 1);
+    }
+}
+
+class Test {
 	public static void main(String[] args) {
 		
 	}
