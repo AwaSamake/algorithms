@@ -7,6 +7,24 @@
  *
  */
 class RotateMatrix {
+    boolean rotate(int[][] matrix) {
+        if (matrix.length == 0 || matrix[0].length != matrix.length) { return false; }
+
+        int n = matrix.length;
+        for (int row = 0; row < n/2; ++row) {
+            int last = n - row - 1;
+            for (int i = row; i < last; i++) {
+                int offset = i - row;
+                int top = matrix[row][i];
+                matrix[row][i]              = matrix[last - offset][row];
+                matrix[last-offset][row]    = matrix[last][last - offset];
+                matrix[last][last - offset] = matrix[i][last];
+                matrix[i][last]             = top;
+            }
+        }
+        return true;
+    }
+    
 	public static void main(String[] args) {
 		
 	}
