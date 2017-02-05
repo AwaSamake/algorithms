@@ -15,7 +15,95 @@
  *
  */
 class SumLists {
+    public static Node addLists(Node list1, Node list2) {
+        Node result = null;
+        int carry = 0, sum = 0, remainder;
+        while (list1 != null && list2 != null) {
+            sum = list1.data + list2.data + carry;
+            list1 = list1.next;
+            list2 = list2.next;
+            carry = sum / 10;
+            remainder = sum % 10;
+            if (result == null) {
+                result = new Node(remainder);
+            } else {
+                result.appendTail(result, remainder);
+            }
+        }
+        if (list1 == null) {
+            while (list2 != null) {
+                sum = list2.data + carry;
+                carry = 0;
+                list2 = list2.next;
+                remainder = sum % 10;
+                if (result == null) {
+                    result = new Node(remainder);
+                } else {
+                    result.appendTail(result, remainder);
+                }
+            }
+        } else if (list2 == null) {
+            while (list1 != null) {
+                sum = list1.data + carry;
+                carry = 0;
+                list1 = list1.next;
+                remainder = sum % 10;
+                if (result == null) {
+                    result = new Node(remainder);
+                } else {
+                    result.appendTail(result, remainder);
+                }
+            }
+        }
+        if (carry != 0) {
+            result.appendTail(result, carry);
+        }
+        return result;
+    }
+    
+    public static Node reverse(Node head) {
+        if (head == null || head.next == null) { return head; }
+        
+        Node newHead = head;
+        head = head.next;
+        newHead.next = null;
+        while (head != null) {
+            Node temp = head;
+            head = head.next;
+            temp.next = null;
+            newHead = appendTail(temp, newHead);
+        }
+        return newHead;
+    }
+    
+    public static Node appendTail(Node head, Node node) {
+        if (head == null) {
+            return node;
+        }
+        Node n = head;
+        while (n.next != null) {
+            n = n.next;
+        }
+        n.next = node;
+        return head;
+    }
+    
 	public static void main(String[] args) {
-		
+		Node list1 = new Node(7);
+        list1.appendTail(list1, 1);
+        list1.appendTail(list1, 6);
+        
+        Node list2 = new Node(5);
+        list2.appendTail(list2, 9);
+        list2.appendTail(list2, 3);
+        
+        list1.printList();
+        list2.printList();
+        
+        Node result = addLists(list1, list2);
+        result.printList();
+        
+        result = reverse(result);
+        result.printList();
 	}
 }
