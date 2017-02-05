@@ -7,7 +7,7 @@
  *
  */
 class RemoveDuplicates {
-/**
+    /**
      * Method #1:
      */
     public static Node removeDuplicate1(Node head) {
