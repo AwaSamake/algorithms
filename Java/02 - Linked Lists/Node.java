@@ -25,8 +25,9 @@ public class Node {
         return head;
     }
 
-    public void printList(Node head) {
-        Node node = head;
+    public void printList() {
+        System.out.print(data + " ");
+        Node node = next;
         while (node != null) {
             System.out.print(node.data + " ");
             node = node.next;

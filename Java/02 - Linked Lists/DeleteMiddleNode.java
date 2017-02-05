@@ -10,7 +10,7 @@
  *
  */
 class DeleteMiddleNode {
-    public boolean deleteMiddle(Node n) {
+    public static boolean deleteMiddle(Node n) {
         if (n == null || n.next == null) {
             return false;
         }
@@ -20,6 +20,33 @@ class DeleteMiddleNode {
     }
     
 	public static void main(String[] args) {
-		
+		Node head = new Node(1);
+        head.appendTail(head, 2);
+        head.appendTail(head, 2);
+        head.appendTail(head, 3);
+        head.appendTail(head, 4);
+        head.appendTail(head, 5);
+        head.appendTail(head, 5);
+        head.appendTail(head, 1);
+        head.appendTail(head, 7);
+        head.appendTail(head, 7);
+        
+        head.printList();
+        deleteMiddle(head.next);
+        head.printList();
+        deleteMiddle(head.next);
+        head.printList();
+        deleteMiddle(head.next);
+        head.printList();
+        deleteMiddle(head.next);
+        head.printList();
+        deleteMiddle(head.next);
+        head.printList();
+        deleteMiddle(head.next);
+        head.printList();
+        deleteMiddle(head.next);
+        head.printList();
+        deleteMiddle(head.next);
+        head.printList();
 	}
 }
