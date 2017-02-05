@@ -6,7 +6,7 @@
  */
 class ReturnKthToLast {
     // Solution #1
-    public Node KthToLast1(Node head, int k) {
+    public static Node KthToLast1(Node head, int k) {
         int count = 0;
         Node n = head;
         while (n.next != null) {
@@ -15,18 +15,19 @@ class ReturnKthToLast {
         }
         int steps = count - k;
         n = head;
-        while (steps > 0) {
+        while (steps >= 0) {
             n = n.next;
+            --steps;
         }
         return n;
     }
 
     // Solution #2
-    public int KthToLast2(Node head, int k) {
+    public static int KthToLast2(Node head, int k) {
         if (head == null) {
             return 1;
         }
-        int index = printKthToLast(head.next, k);
+        int index = KthToLast2(head.next, k);
         if (index == k) {
             System.out.println(head.data);
         }
@@ -34,7 +35,7 @@ class ReturnKthToLast {
     }
 
     // Solution #3
-    public Node KthToLast3(Node head, int k) {
+    public static Node KthToLast3(Node head, int k) {
         Node p1 = head;
         Node p2 = head;
         for (int i = 0; i < k; ++i) {
@@ -51,6 +52,24 @@ class ReturnKthToLast {
     }
     
 	public static void main(String[] args) {
-		
+		Node head = new Node(1);
+        head.appendTail(head, 2);
+        head.appendTail(head, 2);
+        head.appendTail(head, 3);
+        head.appendTail(head, 4);
+        head.appendTail(head, 5);
+        head.appendTail(head, 5);
+        head.appendTail(head, 1);
+        head.appendTail(head, 7);
+        head.appendTail(head, 7);
+        head.printList();
+        
+        int k = 1;
+        System.out.println("Method #1:" + KthToLast1(head, k).data);
+        
+        System.out.print("Method #2:");
+        KthToLast2(head, k);
+        
+        System.out.println("Method #3:" + KthToLast3(head, k).data);
 	}
 }
