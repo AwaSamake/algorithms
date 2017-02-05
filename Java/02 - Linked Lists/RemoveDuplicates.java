@@ -6,6 +6,8 @@
  *     How would you solve this problem if a temporary buffer is not allowed?
  *
  */
+import java.util.HashSet;
+
 class RemoveDuplicates {
     public static Node removeDuplicate1(Node head) {
         Node n = head;
@@ -54,10 +56,10 @@ class RemoveDuplicates {
         head.appendTail(head, 7);
         head.appendTail(head, 7);
                 
-        head.printList(head);
+        head.printList();
         head = removeDuplicate1(head);
-        head.printList(head);
+        head.printList();
         head = removeDuplicate2(head);
-        head.printList(head);
+        head.printList();
     }
 }
