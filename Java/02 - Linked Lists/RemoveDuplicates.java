@@ -7,9 +7,6 @@
  *
  */
 class RemoveDuplicates {
-    /**
-     * Method #1:
-     */
     public static Node removeDuplicate1(Node head) {
         Node n = head;
         HashSet<Integer> elements = new HashSet<>();
@@ -25,9 +22,6 @@ class RemoveDuplicates {
         return head;
     }
 
-    /**
-     * Method #2:
-     */
     public static Node removeDuplicate2(Node head) {
         Node current = head;
         Node runnner = current;
