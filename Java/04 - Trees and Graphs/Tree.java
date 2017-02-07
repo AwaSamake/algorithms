@@ -159,6 +159,7 @@ class Tree {
 				children.add(root.children[i]);
 			}
 		}
+		
 		BFS(children);
 	}
 
@@ -172,7 +173,7 @@ class Tree {
 				}
 			}
 		}
-		System.out.println("\n");
+		System.out.println("");
 		if (children.size() > 0) {
 			BFS(children);
 		}
