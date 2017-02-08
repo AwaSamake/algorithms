@@ -7,6 +7,22 @@
  */
 
 class Successor {
+    public static Node nextNode(Node node) {
+        Node next = null;
+        if (node.hasRightChild()) {
+            next = node.getRightChild();
+            while(next.hasLeftChild()) {
+                next = next.getLeftChild();
+            }
+            return next;
+        }
+        next = node.getParent();
+        while (next != null && next.rightChild() == node) {
+            next = next.getParent();
+        }
+        return next;
+    }
+    
 	public static void main(String[] args) {
 		
 	}
