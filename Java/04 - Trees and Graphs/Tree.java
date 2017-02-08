@@ -1,28 +1,11 @@
 /**
  *
- * 4.0 Node and Tree
+ * 4.0.2 Tree
  *
  */
 import java.util.Random;
 import java.util.ArrayList;
-
-class Node {
-	public int data;
-	public int count;
-	public Node[] children;
-
-	public Node(int data) {
-		this.data = data;
-		this.count = 1;
-		children = new Node[2];
-	}
-
-	public String toString() {
-//		return "[" + data + "-" + count + "] ";
-		return data + " ";
-	}
-}
-
+import java.util.*;
 
 class Tree {
 	private Node root;
@@ -31,6 +14,10 @@ class Tree {
 
 	public Tree() {
 		root = null;
+	}
+	
+	public Tree(Node root) {
+		this.root = root;
 	}
 
 	public void insert(int d) {
@@ -70,7 +57,7 @@ class Tree {
 			}
 		}
 	}
-
+	
 	public void preOrderPrint() {
 		if (root == null) {
 			System.out.println("Tree is empty.");
@@ -149,33 +136,17 @@ class Tree {
 	}
 
 	public void BFS() {
-		if (root == null) {
-			return;
-		}
-		System.out.print(root.toString() + "\n");
-		ArrayList<Node> children = new ArrayList<Node>();
-		for (int i = 0; i < root.children.length; ++i) {
-			if (root.children[i] != null) {
-				children.add(root.children[i]);
-			}
-		}
-		
-		BFS(children);
-	}
-
-	private void BFS(ArrayList<Node> parents) {
-		ArrayList<Node> children = new ArrayList<Node>();
-		for (Node parent : parents) {
-			System.out.print(parent.toString());
-			for (int i = 0; i < parent.children.length; ++i) {
-				if (parent.children[i] != null) {
-					children.add(parent.children[i]);
+		LinkedList<Node> queue = new LinkedList<Node>();
+		queue.add(root);
+		Node node;
+		while (!queue.isEmpty()) {
+			node = queue.pollFirst();
+			if (node != null) {
+				System.out.print(node.toString());
+				for (Node child: node.children) {
+					queue.add(child);
 				}
 			}
-		}
-		System.out.println("");
-		if (children.size() > 0) {
-			BFS(children);
 		}
 	}
 }
