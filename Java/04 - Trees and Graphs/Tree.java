@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.*;
 
 class Tree {
-	private Node root;
+	public Node root;
 	private static final int LEFT = 0;
 	private static final int RIGHT = 1;
 
