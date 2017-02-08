@@ -149,6 +149,35 @@ class Tree {
 			}
 		}
 	}
+	
+	public void generateRandomData(int numberOfData, int from, int to) {
+		Random rand = new Random();
+		for (int i = 0; i < numberOfData; ++i) {
+     	   this.insert(Math.abs(rand.nextInt() % (to - from)) + from);
+	    }
+	}
+	
+	public static Node makeTree(int[] elements, int lower, int upper) {
+		if (lower > upper) {
+			return null;
+		}
+		int mid = (lower + upper) >> 1;
+		Node root = new Node(elements[mid]);
+		root.children[Node.LEFT] = makeTree(elements, lower, mid - 1);
+		root.children[Node.RIGHT] =  makeTree(elements, mid + 1, upper);
+		return root;
+	}
+	
+	public void generateBalanceTree(int numberOfData, int from, int to) {
+		Random rand = new Random();
+		int[] elements = new int[numberOfData];
+		
+		for (int i = 0; i < numberOfData; ++i) {
+		    elements[i] = Math.abs(rand.nextInt() % (to - from) + from);
+		}
+		Arrays.sort(elements);
+		root = makeTree(elements, 0, numberOfData - 1);
+	}
 }
 
 
