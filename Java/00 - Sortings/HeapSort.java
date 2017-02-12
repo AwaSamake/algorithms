@@ -28,14 +28,16 @@ class HeapSort {
             leftChild = leftChild(0);
             rightChild = rightChild(0);
             swapIndex = 0;
-            while (leftChild < i) {
-                if (rightChild < i  && (numbers[parentIndex] < numbers[leftChild] || numbers[parentIndex] < numbers[rightChild])) {
+            while (true) {
+                if (leftChild < i && rightChild < i 
+                    && (numbers[parentIndex] < numbers[leftChild] 
+                        || numbers[parentIndex] < numbers[rightChild])) {
                     if (numbers[leftChild] < numbers[rightChild]) {
                         swapIndex = rightChild;
                     } else {
                         swapIndex = leftChild;
                     }
-                } else if (numbers[parentIndex] < numbers[leftChild] ) {
+                } else if (leftChild < i && numbers[parentIndex] < numbers[leftChild] ) {
                     swap(numbers, parentIndex, leftChild);
                     break;
                 } else {
@@ -85,6 +87,6 @@ class HeapSort {
             numbers[i] = Math.abs(rand.nextInt() % 10000);
         }
         sort(numbers);
-        System.out.println(Arrays.toString(numbers));
+//        System.out.println(Arrays.toString(numbers));
 	}
 }
