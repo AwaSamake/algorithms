@@ -1,9 +1,9 @@
 /**
  *
  * 0.3 Merge Sort
- *     Time: O()
+ *     Time: O( N log(N) )
  *     Space: O()
- *     Runtime: ms
+ *     Runtime: 271 ms
  *
  */
 import java.util.*;
@@ -48,11 +48,15 @@ class MergeSort {
 	}
 		
 	public static void main(String[] args) {
-		int[] numbers = new int[100];
+		final int SIZE = 200000;
+		int[] numbers = new int[SIZE];
 		Random rand = new Random();
-		for (int i = 0; i < 100; ++i) { numbers[i] = Math.abs(rand.nextInt() % 200); }
-		System.out.println(Arrays.toString(numbers));
+		
+		for (int i = 0; i < SIZE; ++i) {
+		    numbers[i] = Math.abs(rand.nextInt() % 10000);
+		}
+		
 		mergeSort(numbers);
-		System.out.println(Arrays.toString(numbers));
+//		System.out.println(Arrays.toString(numbers));
 	}
 }

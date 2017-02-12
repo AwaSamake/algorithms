@@ -35,7 +35,7 @@ class InsertionSort {
 		Random rand = new Random();
 		
 		for (int i = 0; i < SIZE; ++i) {
-			numbers[i] = rand.nextInt() % 1000000;
+			numbers[i] = Math.abs(rand.nextInt() % 10000);
 		}
 		
 		sort(numbers);
