@@ -1,9 +1,9 @@
 /**
  *
  * 0.4 Heap Sort
- *     Time: O()
- *     Space: O()
- *     Runtime: ms
+ *     Time: O(N Log(N))
+ *     Space: O(1)
+ *     Runtime: 200ms
  *
  */
 import java.util.Random;
@@ -21,20 +21,33 @@ class HeapSort {
             }
         }
         
+        int parentIndex, leftChild, rightChild, swapIndex;
         for (int i = SIZE - 1; i > -1; --i) {
-            System.out.println(Arrays.toString(numbers));
-            swap(numbers, i, 0);            int parentIndex = 0;
-            int leftChild = leftChild(0);
-            int rightChild = rightChild(0);
-            
-            while (true) {
-                
+            swap(numbers, i, 0);            
+            parentIndex = 0;
+            leftChild = leftChild(0);
+            rightChild = rightChild(0);
+            swapIndex = 0;
+            while (leftChild < i) {
+                if (rightChild < i  && (numbers[parentIndex] < numbers[leftChild] || numbers[parentIndex] < numbers[rightChild])) {
+                    if (numbers[leftChild] < numbers[rightChild]) {
+                        swapIndex = rightChild;
+                    } else {
+                        swapIndex = leftChild;
+                    }
+                } else if (numbers[parentIndex] < numbers[leftChild] ) {
+                    swap(numbers, parentIndex, leftChild);
+                    break;
+                } else {
+                    break;
+                }
+                swap(numbers, parentIndex, swapIndex);
+                parentIndex = swapIndex;
+                leftChild = leftChild(parentIndex);
+                rightChild = rightChild(parentIndex);
             }
-            System.out.println(Arrays.toString(numbers));
-            System.out.println("max:" + numbers[i] + " swaped to end\n\n");
 
         }
-        
     }
     
     public static void swap(int[] numbers, int i, int j) {
@@ -65,25 +78,13 @@ class HeapSort {
     }
 
     public static void main(String[] args) {
-        final int SIZE = 20;
+        final int SIZE = 200000;
         int[] numbers = new int[SIZE];
         Random rand = new Random();
         for (int i = 0; i < SIZE; ++i) {
-            numbers[i] = Math.abs(rand.nextInt() % 100);
+            numbers[i] = Math.abs(rand.nextInt() % 10000);
         }
         sort(numbers);
         System.out.println(Arrays.toString(numbers));
 	}
 }
-
-/*
-
-final int SIZE = 200000;
-int[] numbers = new int[SIZE];
-Random rand = new Random();
-for (int i = 0; i < SIZE; ++i) {
-    numbers[i] = Math.abs(rand.nextInt() % 10000);
-}
-sort(numbers);
-
-*/
