@@ -39,6 +39,7 @@ class FirstCommonAncestor {
         }
         return depth;
     }
+    
     /**
      * Solution #2: With Links to Parents
      */
@@ -78,6 +79,7 @@ class FirstCommonAncestor {
         Node parent = node.parent;
         return parent.left == node ? parent.right : parent.left;
     }
+    
     /**
      * Solution #3: Without Links to Parents
      */
@@ -91,6 +93,36 @@ class FirstCommonAncestor {
     Node ancestorHelper(Node root, Node p, Node q) {
         if (root == null || root == p || root == q) {
             return root;
+        }
+    }
+
+    /**
+     * Solution #4: Without Links to Parents
+     */
+    public static Node commonAncestor4(Node root, Node p, Node q) {
+        if (root == null) {
+            return null;
+        }
+        if (root == p && root == q) {
+            return root;
+        }
+        
+        Node x = commonAncestor4(root.left, p, q);
+        if (x != null && x != p && x != q) {
+            return x;
+        }
+        
+        Node y = commonAncestor4(root, p, q);
+        if (y != null && y Q= p && y != q) {
+            return y;
+        }
+        
+        if (x != null && y != null) {
+            return root;
+        } else if (root == p || root == q) {
+            return root;
+        } else {
+            return x == null ? y : x;
         }
     }
     
