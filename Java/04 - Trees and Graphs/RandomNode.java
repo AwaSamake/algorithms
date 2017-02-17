@@ -8,8 +8,110 @@
  *     rest of the methods.
  *
  */
+
+import java.util.*;
+
+/**
+ *
+ * Solution #1
+ *     Keeping a counter of Node in Subtree 
+ *
+ */
+class Node {
+    private int data;
+    public Node left;
+    public Node right;
+    private int size = 0;
+    
+    public Node(int d) {
+        data = d;
+        size = 1;
+    }
+    
+    public Node getRandomNode() {
+        int leftSize = left == null ? 0 left.size();
+        Random random = new Random();
+        int index = random.nextInt(size);
+        if (index < leftSize) {
+            return left.getRandomNode();
+        } else if (index == leftSize) {
+            return this;
+        } else {
+            return right.getRandomNode();
+        }
+    }
+    
+    public void insertInOrder(int d) {
+        if (d <= data) {
+            if (left == null) {
+                left = new Node(d);
+            } else {
+                left.insertInOrder(d);
+            }
+        } else {
+            if (right == null) {
+                right = new Node(d);
+            } else {
+                right.insertInOrder(d);
+            }
+        }
+        size++;
+    }
+    
+    public int size() {
+        return size;
+    }
+    
+    public int data() {
+        return data;
+    }
+    
+    public Node find(int d) {
+        if (d == data) {
+            return this;
+        } else if (d < data) {
+            return left != null ? left.find(d) : null;
+        } else {
+            return right != null ? right.find(d) : null;
+        }
+    }
+}
+
+
 class RandomNode {
 	public static void main(String[] args) {
 		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
