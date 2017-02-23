@@ -25,10 +25,29 @@ class MagicIndex {
 		return -1;
 	}
 	
+	/**
+	 * Binary search solution
+	 */
+	public static int findMagicIndex2(int[] numbers) {
+		int lower = 0, upper = numbers.length - 1;
+		int mid;
+		while (lower <= upper) {
+			mid = (lower + upper) / 2;
+			if (numbers[mid] == mid) {
+				return mid;
+			} else if (numbers[mid] > mid) {
+				upper = mid - 1;
+			} else {
+				lower = mid + 1;
+			}
+		}
+		return -1;
+	}
+
 	
 	public static void main(String[] args) {
 		int[] numbers = new int[] {-40, -20, 1, 1, 2, 3, 5, 7, 9, 12, 13};
 		
-		System.out.println(findMagicIndex(numbers));
+		System.out.println(findMagicIndex2(numbers));
 	}
 }
