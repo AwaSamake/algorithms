@@ -8,7 +8,6 @@
  */
 import java.util.*;
 
-
 class CountSort {
     public static void sort(char[] characters) {
         int[] count = new int[26];
@@ -18,7 +17,7 @@ class CountSort {
                 count[index]++;
             }
         }
-        
+
         int countIndex = 0, arrIndex = 0;
         while (countIndex < 26) {
             if (count[countIndex] > 0) {
@@ -30,15 +29,22 @@ class CountSort {
             }
         }
     }
-    
+
     public static int charToIndex(char c) {
         int index = Character.toLowerCase(c) - 'a';
         return (index > -1 && index < 26) ? index : -1;
     }
 
     public static void main(String[] args) {
-        char[] numbers = "theat".toCharArray();
-        sort(numbers);
-        System.out.println(Arrays.toString(numbers));
+        final int SIZE = 200000;
+        char[] characters = new char[SIZE];
+        Random rand = new Random();
+
+        for (int i = 0; i < SIZE; ++i) {
+            characters[i] =  (char) ((int)'a' + rand.nextInt(26));
+        }
+
+        sort(characters);
+        System.out.println(Arrays.toString(characters));
     }
 }

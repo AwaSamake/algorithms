@@ -28,7 +28,7 @@ class BucketSort {
             while (!oneQueue.isEmpty()) {
                 numbers[index++] = oneQueue.removeFirst();
             }
-            mask = mask << 1;
+            mask <<= 1;
         }
     }
 
@@ -38,7 +38,7 @@ class BucketSort {
         Random rand = new Random();
         
         for (int i = 0; i < SIZE; ++i) {
-            numbers[i] = Math.abs(rand.nextInt() % 10000);
+            numbers[i] = Math.abs(rand.nextInt() % 100000);
         }
         
         sort(numbers);
