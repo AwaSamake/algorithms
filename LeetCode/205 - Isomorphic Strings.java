@@ -22,12 +22,24 @@ public class Solution {
 			return false;
 		}
 		
-		HashMap<Character, ArrayList<Integer>> hashmap = new HashMap<Character, ArrayList<Integer>>();
-		char[] chars = s.toCharArray();
-		for (int i = 0; i < chars.length; ++i) {
-			ArrayList<Integer> indexes = hashmap.getOrDefault(c, new ArrayList<Integer>);
-			indexes.add(i)
-			hashmap.put(c, indexes);
+		HashMap<Character, Character> hashmap = new HashMap<Character, Character>();
+		char[] charS = s.toCharArray();
+		char[] charT = t.toCharArray();
+		
+		for (int i = 0; i < charS.length; ++i) {
+			if (hashmap.containsKey(charS[i]) && hashmap.get(charS[i]) != charT[i]) {
+				return false;
+			}
+			hashmap.put(charS[i], charT[i]);
 		}
+		hashmap.clear();
+		
+		for (int i = 0; i < charS.length; ++i) {
+			if (hashmap.containsKey(charT[i]) && hashmap.get(charT[i]) != charS[i]) {
+				return false;
+			}
+			hashmap.put(charT[i], charS[i]);
+		}
+		return true;
 	}
 }
