@@ -18,18 +18,26 @@ import java.util.*;
 
 public class Solution {
 	public boolean wordPattern(String pattern, String str) {
-		String[] parts = str.split(" ");
-		if (pattern.length() != parts.length) {
+		String[] words = str.split(" ");
+		if (pattern.length() != words.length) {
 		    return false;
 		}
-		HashMap<Character, Integer> p2i = new HashMap<Character, Integer>();
-		HashMap<String, Integer> w2i = new HashMap<String, Integer>();
+		
+		HashMap<Character, String> p2w = new HashMap<Character, String>();
 		for (int i = 0; i < pattern.length(); ++i) {
-			if (p2i.get(pattern.charAt(i)) != w2i.get(parts[i])) {
+			char p = pattern.charAt(i);
+			if (p2w.containsKey(p) && !p2w.get(p).equals(words[i])) {
 				return false;
 			}
-			p2i.put(pattern.charAt(i), i+1);
-			w2i.put(parts[i], i+1);
+			p2w.put(p, words[i]);
+		}
+		
+		HashMap<String, Character> w2p = new HashMap<String, Character>();
+		for (int i = 0; i < pattern.length(); ++i) {
+			if (w2p.containsKey(words[i]) && w2p.get(words[i]) != pattern.charAt(i)) {
+				return false;
+			}
+			w2p.put(words[i], pattern.charAt(i));
 		}
 		return true;
 	}
