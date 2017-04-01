@@ -19,10 +19,10 @@ public class Solution {
 			h = Math.min(height[left], height[right]);
 			max = Math.max(max, (right - left) * h);
 			
-			while (height[left] <= h) {
+			while (left < right && height[left] <= h) {
 				left++;
 			}
-			while (height[right] <= h) {
+			while (left < right && height[right] <= h) {
 				right--;
 			}
 		}
