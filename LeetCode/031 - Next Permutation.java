@@ -20,11 +20,24 @@ import java.util.*;
 
 public class Solution {
 	public void nextPermutation(int[] nums) {
-		if (nums.length < 1) {
-			return nums;
+		for (int i = nums.length - 1; i > -1; --i) {
+			System.out.println("i:" + i + " val:" + nums[i]);
+			int smaller = findClosestSmaller(nums, i, nums[i]);
+			System.out.println("smaller:" + smaller + " val:" + nums[smaller]);
+			if (smaller != -1) {
+				int temp = nums[i];
+				nums[i] = nums[smaller];
+				nums[smaller] = temp;
+				return;
+			}
 		}
-		
-		
-		
+		Arrays.sort(nums);
+	}
+	
+	public int findClosestSmaller(int nums[], int at, int val) {
+		while (at > -1 && nums[at] > val) {
+			--at;
+		}
+		return at;
 	}
 }
