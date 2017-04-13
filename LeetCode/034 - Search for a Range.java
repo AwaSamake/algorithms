@@ -17,6 +17,37 @@ import java.util.*;
 
 public class Solution {
 	public int[] searchRange(int[] nums, int target) {
-		
+		int[] result = new int[] {-1, -1};
+		if (nums.length == 0) {
+		    return result;
+		}
+		int lower = 0, upper = nums.length - 1;
+		while (lower < upper) {
+		    int mid = (lower + upper) / 2;
+			if (nums[mid] < target) {
+				lower = mid + 1;
+			} else {
+				upper = mid;
+			}
+		}
+		if (nums[lower] != target) {
+		    return result;
+		}
+		result[0] = lower;
+		lower = 0;
+		upper = nums.length - 1;
+		while (lower < upper) {
+		    int mid = (lower + upper) / 2 + 1;
+			if (nums[mid] <= target) {
+				lower = mid;
+			} else {
+				upper = mid - 1;
+			}
+		}
+		if (nums[upper] != target) {
+		    return result;
+		}
+		result[1] = upper;
+		return result;
 	}
 }
