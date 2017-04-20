@@ -29,6 +29,22 @@ import java.util.*;
 
 public class Solution {
 	public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
+		HashMap<Integer, Integer> sumMap = new HashMap<Integer, Integer>();
 		
+		for (int a : A) {
+			for (int b : B) {
+				int sum = a + b;
+				sumMap.put(sum , sumMap.getOrDefault(sum, 0) + 1);
+			}
+		}
+		
+		int count = 0;
+		for (int c : C) {
+			for (int d : D) {
+				int target = - (c + d);
+				count += sumMap.getOrDefault(target, 0);
+			}
+		}
+		return count;
 	}
 }
