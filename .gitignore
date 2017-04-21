@@ -1,18 +1,8 @@
 ###IntelliJ###
 .DS_Store
-*.iml
-*.ipr
-*.iws
-.idea/
-
+test.java
+Solution.java
+LeetCode/13\ -\ Unsolved
 ###Java###
 
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
