@@ -15,19 +15,25 @@
 import java.util.*;
 
 /* The isBadVersion API is defined in the parent class VersionControl.
-			boolean isBadVersion(int version); */
+      boolean isBadVersion(int version); */
 
 public class Solution extends VersionControl {
 	public int firstBadVersion(int n) {
-		int older = 1, newer = n;
-		while (older < newer) {
-			int version = (older + newer) / 2;
-			if (isBadVersion(version)) {
-				newer = version;
+		if (isBadVersion(1)) {
+			return 1;
+		}
+		if (!isBadVersion(n)) {
+			return n;
+		}
+		int good = 1, bad = n, unknown;
+		while (good < bad && bad - good > 1) {
+			unknown = good + (bad - good) / 2;
+			if (isBadVersion(unknown)) {
+				bad = unknown;
 			} else {
-				older = version + 1;
+				good = unknown;
 			}
 		}
-		return older;
+		return bad;
 	}
 }
