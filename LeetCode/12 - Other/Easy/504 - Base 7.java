@@ -13,7 +13,7 @@
  */
 import java.util.*;
 
-class Solution {
+public class Solution {
 	public String convertToBase7(int num) {
 		if (num == 0) {
 			return "0";
@@ -39,31 +39,3 @@ class Solution {
 		return sb.toString();
 	}
 }
-
-class test {
-	public static void main(String[] args) {
-		Solution s = new Solution();
-		System.out.println(s.convertToBase7(-100));
-
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
