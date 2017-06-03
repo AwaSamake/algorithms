@@ -1,8 +1,8 @@
-###IntelliJ###
+.gitignore
 .DS_Store
 test.java
 Solution.java
-LeetCode/13\ -\ Unsolved
+LeetCode/14\ -\ Unsolved
 ###Java###
 
 *.class
