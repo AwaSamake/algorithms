@@ -106,3 +106,14 @@
 * [80_median](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/80_median/median.java)
 * [96_partition-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/96_partition-list/partition-list.java)
 
+## Day - 10
+* [153_combination-sum-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/153_combination-sum-ii/combination-sum-ii.java)
+* [15_permutations](   https://github.com/LLihao/algorithm-practice/blob/master/LintCode/15_permutations/permutations.java)
+* [16_permutations-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/16_permutations-ii/permutations-ii.java)
+* [17_subsets](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/17_subsets/subsets.java)
+* [18_subsets-ii]( https://github.com/LLihao/algorithm-practice/blob/master/LintCode/18_subsets-ii/subsets-ii.java)
+* [190_next-permutation-ii](   https://github.com/LLihao/algorithm-practice/blob/master/LintCode/190_next-permutation-ii/next-permutation-ii.java)
+* [388_permutation-sequence](  https://github.com/LLihao/algorithm-practice/blob/master/LintCode/388_permutation-sequence/permutation-sequence.java)
+* [397_longest-increasing-continuous-subsequence]( https://github.com/LLihao/algorithm-practice/blob/master/LintCode/397_longest-increasing-continuous-subsequence/longest-increasing-continuous-subsequence.java)
+* [51_previous-permutation](   https://github.com/LLihao/algorithm-practice/blob/master/LintCode/51_previous-permutation/previous-permutation.java)
+* [52_next-permutation](   https://github.com/LLihao/algorithm-practice/blob/master/LintCode/52_next-permutation/next-permutation.java)
