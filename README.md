@@ -108,12 +108,24 @@
 
 ## Day - 10
 * [153_combination-sum-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/153_combination-sum-ii/combination-sum-ii.java)
-* [15_permutations](   https://github.com/LLihao/algorithm-practice/blob/master/LintCode/15_permutations/permutations.java)
+* [15_permutations](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/15_permutations/permutations.java)
 * [16_permutations-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/16_permutations-ii/permutations-ii.java)
 * [17_subsets](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/17_subsets/subsets.java)
 * [18_subsets-ii]( https://github.com/LLihao/algorithm-practice/blob/master/LintCode/18_subsets-ii/subsets-ii.java)
-* [190_next-permutation-ii](   https://github.com/LLihao/algorithm-practice/blob/master/LintCode/190_next-permutation-ii/next-permutation-ii.java)
-* [388_permutation-sequence](  https://github.com/LLihao/algorithm-practice/blob/master/LintCode/388_permutation-sequence/permutation-sequence.java)
+* [190_next-permutation-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/190_next-permutation-ii/next-permutation-ii.java)
+* [388_permutation-sequence](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/388_permutation-sequence/permutation-sequence.java)
 * [397_longest-increasing-continuous-subsequence]( https://github.com/LLihao/algorithm-practice/blob/master/LintCode/397_longest-increasing-continuous-subsequence/longest-increasing-continuous-subsequence.java)
-* [51_previous-permutation](   https://github.com/LLihao/algorithm-practice/blob/master/LintCode/51_previous-permutation/previous-permutation.java)
-* [52_next-permutation](   https://github.com/LLihao/algorithm-practice/blob/master/LintCode/52_next-permutation/next-permutation.java)
+* [51_previous-permutation](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/51_previous-permutation/previous-permutation.java)
+* [52_next-permutation](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/52_next-permutation/next-permutation.java)
+
+## Day - 11
+* [157_unique-characters](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/157_unique-characters/unique-characters.java)
+* [159_find-minimum-in-rotated-sorted-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/159_find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.java)
+* [172_remove-element](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/172_remove-element/remove-element.java)
+* [372_delete-node-in-the-middle-of-singly-linked-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/372_delete-node-in-the-middle-of-singly-linked-list/)delete-node-in-the-middle-of-singly-linked-list.java
+* [383_container-with-most-water](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/383_container-with-most-water/container-with-most-water.java)
+* [407_plus-one](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/407_plus-one/plus-one.java)
+* [535_house-robber-iii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/535_house-robber-iii/house-robber-iii.java)
+* [547_intersection-of-two-arrays](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/547_intersection-of-two-arrays/intersection-of-two-arrays.java)
+* [61_search-for-a-range](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/61_search-for-a-range/search-for-a-range.java)
+* [82_single-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/82_single-number/single-number.java)
