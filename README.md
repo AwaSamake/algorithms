@@ -122,7 +122,7 @@
 * [157_unique-characters](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/157_unique-characters/unique-characters.java)
 * [159_find-minimum-in-rotated-sorted-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/159_find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.java)
 * [172_remove-element](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/172_remove-element/remove-element.java)
-* [372_delete-node-in-the-middle-of-singly-linked-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/372_delete-node-in-the-middle-of-singly-linked-list/)delete-node-in-the-middle-of-singly-linked-list.java
+* [372_delete-node-in-the-middle-of-singly-linked-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/372_delete-node-in-the-middle-of-singly-linked-list/delete-node-in-the-middle-of-singly-linked-list.java)
 * [383_container-with-most-water](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/383_container-with-most-water/container-with-most-water.java)
 * [407_plus-one](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/407_plus-one/plus-one.java)
 * [535_house-robber-iii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/535_house-robber-iii/house-robber-iii.java)
