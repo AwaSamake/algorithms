@@ -13,18 +13,41 @@
  */
 import java.util.*;
 
-class Solution {
-	public int findKthLargest(int[] nums, int k) {
-		PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
-		for (int i = 0; i < k; ++i) {
-			minHeap.add(nums[i]);
+public class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        return kthLargestElement(k, nums, 0, nums.length - 1);
+    }
+	
+	public int kthLargestElement(int k, int[] nums, int i, int j) {
+		if (i > j) {
+			return -1;
 		}
-		for (int i = k; i < nums.length; ++i) {
-			if (nums[i] > minHeap.peek()) {
-				minHeap.add(nums[i]);
-				minHeap.poll();
+		int pivot = partition(nums, i, j);
+		if (pivot + 1 == k) {
+			return nums[pivot];
+		} else if (pivot + 1 < k) {
+			return kthLargestElement(k, nums, pivot + 1, j);
+		} else {
+			return kthLargestElement(k, nums, i, pivot - 1);
+		}
+	}
+	
+	public int partition(int[] nums, int l, int r) {
+		int left = l, right = r;
+		int pivot = nums[left];
+		
+		while (left < right) {
+			while (left < right && nums[right] <= pivot) {
+				right--;
 			}
+			nums[left] = nums[right];
+			while (left < right && nums[left] >= pivot) {
+				left++;
+			}
+			nums[right] = nums[left];
 		}
-		return minHeap.poll();
+		
+		nums[left] = pivot;
+		return left;         
 	}
 }
