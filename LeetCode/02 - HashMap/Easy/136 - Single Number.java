@@ -12,15 +12,10 @@ import java.util.*;
 
 public class Solution {
 	public int singleNumber(int[] nums) {
-		HashSet<Integer> set = new HashSet<Integer>();
+	    int single = 0;
 		for (int num : nums) {
-			if (set.contains(num)) {
-				set.remove(num);
-			} else {
-				set.add(num);
-			}
+		    single ^= num;
 		}
-		Integer[] arr = set.toArray(new Integer[set.size()]);
-		return arr.length == 1 ? arr[0] : -1;
+		return single;
 	}
 }
