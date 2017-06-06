@@ -141,3 +141,15 @@
 * [81_data-stream-median](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/81_data-stream-median/data-stream-median.java)
 * [86_binary-search-tree-iterator](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/86_binary-search-tree-iterator/binary-search-tree-iterator.java)
 * [8_rotate-string](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/8_rotate-string/rotate-string.java)
+
+## Day - 13
+* [123_word-search](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/123_word-search/word-search.java)
+* [13_strstr](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/13_strstr/strstr.java)
+* [149_best-time-to-buy-and-sell-stock](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/149_best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.java)
+* [207_interval-sum-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/207_interval-sum-ii/interval-sum-ii.java)
+* [248_count-of-smaller-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/248_count-of-smaller-number/count-of-smaller-number.java)
+* [442_implement-trie](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/442_implement-trie/implement-trie.java)
+* [450_reverse-nodes-in-k-group](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/450_reverse-nodes-in-k-group/reverse-nodes-in-k-group.java)
+* [451_swap-nodes-in-pairs](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/451_swap-nodes-in-pairs/swap-nodes-in-pairs.java)
+* [524_left-pad](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/524_left-pad/left-pad.java)
+* [71_binary-tree-zigzag-level-order-traversal](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/71_binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.java)
