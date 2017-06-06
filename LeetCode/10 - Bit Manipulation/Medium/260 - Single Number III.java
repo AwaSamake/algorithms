@@ -20,22 +20,21 @@
 import java.util.*;
 
 public class Solution {
-	public int[] singleNumber(int[] nums) {
-		HashSet<Integer> set = new HashSet<Integer>();
-		
-		for (int num : nums) {
-			if (set.contains(num)) {
-				set.remove(num);
+    public int[] singleNumber(int[] nums) {
+		int xor = 0;
+		for (int a : nums) {
+			xor ^= a;
+		}
+		int lastBit = xor - (xor & (xor - 1));
+		int one = 0;
+		int two = 0;
+		for (int a : nums) {
+			if ((a & lastBit) == 0) {
+				one ^= a;
 			} else {
-				set.add(num);
+				two ^= a;
 			}
 		}
-		
-		int[] singles = new int[2];
-		int i = 0;
-		for (int num : set) {
-			singles[i++] = num;
-		}
-		return singles;
+		return new int[] { one, two };
 	}
 }
