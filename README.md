@@ -153,3 +153,15 @@
 * [451_swap-nodes-in-pairs](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/451_swap-nodes-in-pairs/swap-nodes-in-pairs.java)
 * [524_left-pad](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/524_left-pad/left-pad.java)
 * [71_binary-tree-zigzag-level-order-traversal](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/71_binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.java)
+
+## Day - 14
+[100_remove-duplicates-from-sorted-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/100_remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java)
+[179_update-bits](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/179_update-bits/update-bits.java)
+[381_spiral-matrix-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/381_spiral-matrix-ii/spiral-matrix-ii.java)
+[421_simplify-path](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/421_simplify-path/simplify-path.java)
+[491_palindrome-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/491_palindrome-number/palindrome-number.java)
+[55_compare-strings](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/55_compare-strings/compare-strings.java)
+[646_first-position-unique-character](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/646_first-position-unique-character/first-position-unique-character.java)
+[79_longest-common-substring](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/79_longest-common-substring/longest-common-substring.java)
+[84_single-number-iii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/84_single-number-iii/single-number-iii.java)
+[9_fizz-buzz](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/9_fizz-buzz/fizz-buzz.java)
