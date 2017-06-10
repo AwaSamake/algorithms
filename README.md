@@ -218,3 +218,6 @@
 * [422_length-of-last-word](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/422_length-of-last-word/length-of-last-word.java)
 * [44_minimum-subarray](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/44_minimum-subarray/minimum-subarray.java)
 * [59_3sum-closest](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/59_3sum-closest/3sum-closest.java)
+* [133_longest-words](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/133_longest-words/longest-words.java)
+* [423_valid-parentheses](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/423_valid-parentheses/valid-parentheses.java)
+* [632_binary-tree-maximum-node](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/632_binary-tree-maximum-node/binary-tree-maximum-node.java)
