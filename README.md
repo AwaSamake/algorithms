@@ -1,615 +1,627 @@
 # Cracking the Coding Interview
+* 18 Days of LintCode           - 210 Problems
+* LeetCode                      - 253 Problems
+* Cracking the Coding Interview -  91 Problems
 
-### 00_Sorting_Algorithms:
-* [BubbleSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/BubbleSort.java)
-* [BucketSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/BucketSort.java)
-* [CountSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/CountSort.java)
-* [HeapSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/HeapSort.java)
-* [InsertionSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/InsertionSort.java)
-* [MergeSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/MergeSort.java)
-* [QuickSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/QuickSort.java)
-* [RadixSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/RadixSort.java)
+----
 
-### 01_Arrays_and_Strings:
-* [CheckPermutation](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/CheckPermutation.java)
-* [IsUnique](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/IsUnique.java)
-* [OneAway](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/OneAway.java)
-* [PalindromePermutation](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/PalindromePermutation.java)
-* [RotateMatrix](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/RotateMatrix.java)
-* [StringCompression](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/StringCompression.java)
-* [StringRotation](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/StringRotation.java)
-* [URLify](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/URLify.java)
-* [ZeroMatrix](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/ZeroMatrix.java)
+# 18 Days of LintCode - 210 Problems
+### <a href="http://www.lintcode.com/en/problem/" target="_blank">LintCode.com</a>
 
-### 02_Linked_Lists:
-* [DeleteMiddleNode](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/DeleteMiddleNode.java)
-* [Intersection](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Intersection.java)
-* [LoopDetection](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/LoopDetection.java)
-* [Node](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Node.java)
-* [Palindrome](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Palindrome.java)
-* [Partition](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Partition.java)
-* [RemoveDuplicates](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/RemoveDuplicates.java)
-* [ReturnKthToLast](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/ReturnKthToLast.java)
-* [SumLists](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/SumLists.java)
+## Day - 01
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/142_o1-check-power-of-2/o1-check-power-of-2.java" target="_blank">142_o1-check-power-of-2</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/181_flip-bits/flip-bits.java" target="_blank">181_flip-bits</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/31_partition-array/partition-array.java" target="_blank">31_partition-array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/384_longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.java" target="_blank">384_longest-substring-without-repeating-characters</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/40_implement-queue-by-two-stacks/implement-queue-by-two-stacks.java" target="_blank">40_implement-queue-by-two-stacks</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/469_identical-binary-tree/identical-binary-tree.java" target="_blank">469_identical-binary-tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/657_insert-delete-getrandom-o1/insert-delete-getrandom-o1.java" target="_blank">657_insert-delete-getrandom-o1</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/661_convert-bst-to-greater-tree/convert-bst-to-greater-tree.java" target="_blank">661_convert-bst-to-greater-tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/74_first-bad-version/first-bad-version.java" target="_blank">74_first-bad-version</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/87_remove-node-in-binary-search-tree/remove-node-in-binary-search-tree.java" target="_blank">87_remove-node-in-binary-search-tree</a>
 
-### 03_Stacks_and_Queues:
-* [AnimalShelter](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/AnimalShelter.java)
-* [QueueViaStacks](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/QueueViaStacks.java)
-* [SortStack](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/SortStack.java)
-* [StackMin](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/StackMin.java)
-* [StackOfPlates](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/StackOfPlates.java)
-* [ThreeInOne](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/ThreeInOne.java)
+## Day - 02
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/114_unique-paths/unique-paths.java" target="_blank">114_unique-paths</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/11_search-range-in-binary-search-tree/search-range-in-binary-search-tree.java" target="_blank">11_search-range-in-binary-search-tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/173_insertion-sort-list/insertion-sort-list.java" target="_blank">173_insertion-sort-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/184_largest-number/largest-number.java" target="_blank">184_largest-number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/186_max-points-on-a-line/max-points-on-a-line.java" target="_blank">186_max-points-on-a-line</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/206_interval-sum/interval-sum.java" target="_blank">206_interval-sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/360_sliding-window-median/sliding-window-median.java" target="_blank">360_sliding-window-median</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/406_minimum-size-subarray-sum/minimum-size-subarray-sum.java" target="_blank">406_minimum-size-subarray-sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/428_powx-n/powx-n.java" target="_blank">428_powx-n</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/94_binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.java" target="_blank">94_binary-tree-maximum-path-sum</a>
 
-### 04_Trees_and_Graphs:
-* [BSTSequences](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/BSTSequences.java)
-* [BuildOrder](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/BuildOrder.java)
-* [CheckBalanced](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/CheckBalanced.java)
-* [CheckSubtree](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/CheckSubtree.java)
-* [FirstCommonAncestor](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/FirstCommonAncestor.java)
-* [ListOfDepths](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/ListOfDepths.java)
-* [MinimalTree](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/MinimalTree.java)
-* [Node](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Node.java)
-* [PathsWithSum](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/PathsWithSum.java)
-* [RandomNode](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/RandomNode.java)
-* [RouteBetweenNodes](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/RouteBetweenNodes.java)
-* [Successor](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Successor.java)
-* [Tree](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Tree.java)
-* [ValidateBST](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/ValidateBST.java)
+## Day - 03
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/161_rotate-image/rotate-image.java" target="_blank">161_rotate-image</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/177_convert-sorted-array-to-binary-search-tree-with-minimal-height/convert-sorted-array-to-binary-search-tree-with-minimal-height.java" target="_blank">177_convert-sorted-array-to-binary-search-tree-with-minimal-height</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/196_find-the-missing-number/find-the-missing-number.java" target="_blank">196_find-the-missing-number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/36_reverse-linked-list-ii/reverse-linked-list-ii.java" target="_blank">36_reverse-linked-list-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/373_partition-array-by-odd-and-even/partition-array-by-odd-and-even.java" target="_blank">373_partition-array-by-odd-and-even</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/588_partition-equal-subset-sum/partition-equal-subset-sum.java" target="_blank">588_partition-equal-subset-sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/608_two-sum-input-array-is-sorted/two-sum-input-array-is-sorted.java" target="_blank">608_two-sum-input-array-is-sorted</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/640_edit-distance-ii/edit-distance-ii.java" target="_blank">640_edit-distance-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/7_binary-tree-serialization/binary-tree-serialization.java" target="_blank">7_binary-tree-serialization</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/85_insert-node-in-a-binary-search-tree/insert-node-in-a-binary-search-tree.java" target="_blank">85_insert-node-in-a-binary-search-tree</a>
 
-### 05_Bit_Manipulation:
-* [BinaryToString](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/BinaryToString.java)
-* [Conversion](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Conversion.java)
-* [Debugger](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Debugger.java)
-* [DrawLine](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/DrawLine.java)
-* [FlipBitToWin](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/FlipBitToWin.java)
-* [Insertion](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Insertion.java)
-* [NextNumber](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/NextNumber.java)
-* [PairwiseSwap](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/PairwiseSwap.java)
+## Day - 04
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/162_set-matrix-zeroes/set-matrix-zeroes.java" target="_blank">162_set-matrix-zeroes</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/187_gas-station/gas-station.java" target="_blank">187_gas-station</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/189_first-missing-positive/first-missing-positive.java" target="_blank">189_first-missing-positive</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/363_trapping-rain-water/trapping-rain-water.java" target="_blank">363_trapping-rain-water</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/452_remove-linked-list-elements/remove-linked-list-elements.java" target="_blank">452_remove-linked-list-elements</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/473_add-and-search-word/add-and-search-word.java" target="_blank">473_add-and-search-word</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/49_sort-letters-by-case/sort-letters-by-case.java" target="_blank">49_sort-letters-by-case</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/515_paint-house/paint-house.java" target="_blank">515_paint-house</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/66_binary-tree-preorder-traversal/binary-tree-preorder-traversal.java" target="_blank">66_binary-tree-preorder-traversal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/67_binary-tree-inorder-traversal/binary-tree-inorder-traversal.java" target="_blank">67_binary-tree-inorder-traversal</a>
 
-### 08_Recursion_and_Dynamic_Programming:
-* [MagicIndex](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/MagicIndex.java)
-* [PowerSet](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/PowerSet.java)
-* [RobotInGrid](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/RobotInGrid.java)
-* [TowerOfHanoi](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/TowerOfHanoi.java)
-* [TripleStep](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/TripleStep.java)
+## Day - 05
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/122_largest-rectangle-in-histogram/largest-rectangle-in-histogram.java" target="_blank">122_largest-rectangle-in-histogram</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/137_clone-graph/clone-graph.java" target="_blank">137_clone-graph</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/167_add-two-numbers/add-two-numbers.java" target="_blank">167_add-two-numbers</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/245_subtree/subtree.java" target="_blank">245_subtree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/387_the-smallest-difference/the-smallest-difference.java" target="_blank">387_the-smallest-difference</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/480_binary-tree-paths/binary-tree-paths.java" target="_blank">480_binary-tree-paths</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/508_wiggle-sort/wiggle-sort.java" target="_blank">508_wiggle-sort</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/511_swap-two-nodes-in-linked-list/swap-two-nodes-in-linked-list.java" target="_blank">511_swap-two-nodes-in-linked-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/516_paint-house-ii/paint-house-ii.java" target="_blank">516_paint-house-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/647_substring-anagrams/substring-anagrams.java" target="_blank">647_substring-anagrams</a>
 
-### 10_Sorting_and_Searching:
-* [FindDuplicates](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/FindDuplicates.java)
-* [GroupAnagrams](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/GroupAnagrams.java)
-* [RotatedArray](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/RotatedArray.java)
-* [SortedMatrixSearch](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedMatrixSearch.java)
-* [SortedMerge](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedMerge.java)
-* [SortedSearch](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedSearch.java)
-* [SparseSeach](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SparseSeach.java)
+## Day - 06
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/105_copy-list-with-random-pointer/copy-list-with-random-pointer.java" target="_blank">105_copy-list-with-random-pointer</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/110_minimum-path-sum/minimum-path-sum.java" target="_blank">110_minimum-path-sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/160_find-minimum-in-rotated-sorted-array-ii/find-minimum-in-rotated-sorted-array-ii.java" target="_blank">160_find-minimum-in-rotated-sorted-array-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/211_string-permutation/string-permutation.java" target="_blank">211_string-permutation</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/380_intersection-of-two-linked-lists/intersection-of-two-linked-lists.java" target="_blank">380_intersection-of-two-linked-lists</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/38_search-a-2d-matrix-ii/search-a-2d-matrix-ii.java" target="_blank">38_search-a-2d-matrix-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/457_classical-binary-search/classical-binary-search.java" target="_blank">457_classical-binary-search</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/463_sort-integers/sort-integers.java" target="_blank">463_sort-integers</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/63_search-in-rotated-sorted-array-ii/search-in-rotated-sorted-array-ii.java" target="_blank">63_search-in-rotated-sorted-array-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/6_merge-two-sorted-arrays/merge-two-sorted-arrays.java" target="_blank">6_merge-two-sorted-arrays</a>
 
-### 16_Moderate:
-* [BisectSquares](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/BisectSquares.java)
-* [Calculator](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Calculator.java)
-* [ContiguousSequence](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/ContiguousSequence.java)
-* [DivingBoard](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/DivingBoard.java)
-* [EnglishInt](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/EnglishInt.java)
-* [FactorialZeros](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/FactorialZeros.java)
-* [Intersection](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Intersection.java)
-* [LRUCache](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LRUCache.java)
-* [LangtonsAnt](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LangtonsAnt.java)
-* [LivingPeople](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LivingPeople.java)
-* [NumberMax](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/NumberMax.java)
-* [NumberSwapper](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/NumberSwapper.java)
-* [Operations](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Operations.java)
-* [PairsWithSum](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PairsWithSum.java)
-* [PatternMatching](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PatternMatching.java)
-* [PondSizes](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PondSizes.java)
-* [Rand7](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Rand7.java)
-* [SmallestDifference](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SmallestDifference.java)
-* [SubSort](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SubSort.java)
-* [SumSwap](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SumSwap.java)
-* [T9](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/T9.java)
-* [TicTacWin](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/TicTacWin.java)
-* [WordFrequencies](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/WordFrequencies.java)
-* [XmlEncoding](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/XmlEncoding.java)
+## Day - 07
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/125_backpack-ii/backpack-ii.java" target="_blank">125_backpack-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/375_clone-binary-tree/clone-binary-tree.java" target="_blank">375_clone-binary-tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/39_recover-rotated-sorted-array/recover-rotated-sorted-array.java" target="_blank">39_recover-rotated-sorted-array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/53_reverse-words-in-a-string/reverse-words-in-a-string.java" target="_blank">53_reverse-words-in-a-string</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/564_backpack-vi/backpack-vi.java" target="_blank">564_backpack-vi</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/603_largest-divisible-subset/largest-divisible-subset.java" target="_blank">603_largest-divisible-subset</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/88_lowest-common-ancestor/lowest-common-ancestor.java" target="_blank">88_lowest-common-ancestor</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/90_k-sum-ii/k-sum-ii.java" target="_blank">90_k-sum-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/92_backpack/backpack.java" target="_blank">92_backpack</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/95_validate-binary-search-tree/validate-binary-search-tree.java" target="_blank">95_validate-binary-search-tree</a>
+
+## Day - 08
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/112_remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.java" target="_blank">112_remove-duplicates-from-sorted-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/14_first-position-of-target/first-position-of-target.java" target="_blank">14_first-position-of-target</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/156_merge-intervals/merge-intervals.java" target="_blank">156_merge-intervals</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/200_longest-palindromic-substring/longest-palindromic-substring.java" target="_blank">200_longest-palindromic-substring</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/249_count-of-smaller-number-before-itself/count-of-smaller-number-before-itself.java" target="_blank">249_count-of-smaller-number-before-itself</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/29_interleaving-string/interleaving-string.java" target="_blank">29_interleaving-string</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/371_print-numbers-by-recursion/print-numbers-by-recursion.java" target="_blank">371_print-numbers-by-recursion</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/436_maximal-square/maximal-square.java" target="_blank">436_maximal-square</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/46_majority-number/majority-number.java" target="_blank">46_majority-number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/57_3sum/3sum.java" target="_blank">57_3sum</a>
+
+## Day - 09
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/134_lru-cache/lru-cache.java" target="_blank">134_lru-cache</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/135_combination-sum/combination-sum.java" target="_blank">135_combination-sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/143_sort-colors-ii/sort-colors-ii.java" target="_blank">143_sort-colors-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/158_two-strings-are-anagrams/two-strings-are-anagrams.java" target="_blank">158_two-strings-are-anagrams</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/376_binary-tree-path-sum/binary-tree-path-sum.java" target="_blank">376_binary-tree-path-sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/402_continuous-subarray-sum/continuous-subarray-sum.java" target="_blank">402_continuous-subarray-sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/60_search-insert-position/search-insert-position.java" target="_blank">60_search-insert-position</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/62_search-in-rotated-sorted-array/search-in-rotated-sorted-array.java" target="_blank">62_search-in-rotated-sorted-array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/80_median/median.java" target="_blank">80_median</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/96_partition-list/partition-list.java" target="_blank">96_partition-list</a>
+
+## Day - 10
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/153_combination-sum-ii/combination-sum-ii.java" target="_blank">153_combination-sum-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/15_permutations/permutations.java" target="_blank">15_permutations</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/16_permutations-ii/permutations-ii.java" target="_blank">16_permutations-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/17_subsets/subsets.java" target="_blank">17_subsets</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/18_subsets-ii/subsets-ii.java" target="_blank">18_subsets-ii]</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/190_next-permutation-ii/next-permutation-ii.java" target="_blank">190_next-permutation-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/388_permutation-sequence/permutation-sequence.java" target="_blank">388_permutation-sequence</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/397_longest-increasing-continuous-subsequence/longest-increasing-continuous-subsequence.java" target="_blank">397_longest-increasing-continuous-subsequence]</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/51_previous-permutation/previous-permutation.java" target="_blank">51_previous-permutation</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/52_next-permutation/next-permutation.java" target="_blank">52_next-permutation</a>
+
+## Day - 11
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/157_unique-characters/unique-characters.java" target="_blank">157_unique-characters</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/159_find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.java" target="_blank">159_find-minimum-in-rotated-sorted-array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/172_remove-element/remove-element.java" target="_blank">172_remove-element</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/372_delete-node-in-the-middle-of-singly-linked-list/delete-node-in-the-middle-of-singly-linked-list.java" target="_blank">372_delete-node-in-the-middle-of-singly-linked-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/383_container-with-most-water/container-with-most-water.java" target="_blank">383_container-with-most-water</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/407_plus-one/plus-one.java" target="_blank">407_plus-one</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/535_house-robber-iii/house-robber-iii.java" target="_blank">535_house-robber-iii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/547_intersection-of-two-arrays/intersection-of-two-arrays.java" target="_blank">547_intersection-of-two-arrays</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/61_search-for-a-range/search-for-a-range.java" target="_blank">61_search-for-a-range</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/82_single-number/single-number.java" target="_blank">82_single-number</a>
+
+## Day - 12
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/119_edit-distance/edit-distance.java" target="_blank">119_edit-distance</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/170_rotate-list/rotate-list.java" target="_blank">170_rotate-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/32_minimum-window-substring/minimum-window-substring.java" target="_blank">32_minimum-window-substring</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/374_spiral-matrix/spiral-matrix.java" target="_blank">374_spiral-matrix</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/415_valid-palindrome/valid-palindrome.java" target="_blank">415_valid-palindrome</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/433_number-of-islands/number-of-islands.java" target="_blank">433_number-of-islands</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/5_kth-largest-element/kth-largest-element.java" target="_blank">5_kth-largest-element</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/81_data-stream-median/data-stream-median.java" target="_blank">81_data-stream-median</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/86_binary-search-tree-iterator/binary-search-tree-iterator.java" target="_blank">86_binary-search-tree-iterator</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/8_rotate-string/rotate-string.java" target="_blank">8_rotate-string</a>
+
+## Day - 13
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/123_word-search/word-search.java" target="_blank">123_word-search</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/13_strstr/strstr.java" target="_blank">13_strstr</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/149_best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.java" target="_blank">149_best-time-to-buy-and-sell-stock</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/207_interval-sum-ii/interval-sum-ii.java" target="_blank">207_interval-sum-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/248_count-of-smaller-number/count-of-smaller-number.java" target="_blank">248_count-of-smaller-number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/442_implement-trie/implement-trie.java" target="_blank">442_implement-trie</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/450_reverse-nodes-in-k-group/reverse-nodes-in-k-group.java" target="_blank">450_reverse-nodes-in-k-group</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/451_swap-nodes-in-pairs/swap-nodes-in-pairs.java" target="_blank">451_swap-nodes-in-pairs</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/524_left-pad/left-pad.java" target="_blank">524_left-pad</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/71_binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.java" target="_blank">71_binary-tree-zigzag-level-order-traversal</a>
+
+## Day - 14
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/100_remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java" target="_blank">100_remove-duplicates-from-sorted-array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/179_update-bits/update-bits.java" target="_blank">179_update-bits</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/381_spiral-matrix-ii/spiral-matrix-ii.java" target="_blank">381_spiral-matrix-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/421_simplify-path/simplify-path.java" target="_blank">421_simplify-path</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/491_palindrome-number/palindrome-number.java" target="_blank">491_palindrome-number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/55_compare-strings/compare-strings.java" target="_blank">55_compare-strings</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/646_first-position-unique-character/first-position-unique-character.java" target="_blank">646_first-position-unique-character</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/79_longest-common-substring/longest-common-substring.java" target="_blank">79_longest-common-substring</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/84_single-number-iii/single-number-iii.java" target="_blank">84_single-number-iii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/9_fizz-buzz/fizz-buzz.java" target="_blank">9_fizz-buzz</a>
+
+## Day - 15
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/12_min-stack/min-stack.java" target="_blank">12_min-stack</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/1_a-b-problem/a-b-problem.java" target="_blank">1_a-b-problem</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/22_flatten-list/flatten-list.java" target="_blank">22_flatten-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/28_search-a-2d-matrix/search-a-2d-matrix.java" target="_blank">28_search-a-2d-matrix</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/35_reverse-linked-list/reverse-linked-list.java" target="_blank">35_reverse-linked-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/50_product-of-array-exclude-itself/product-of-array-exclude-itself.java" target="_blank">50_product-of-array-exclude-itself</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/58_4sum/4sum.java" target="_blank">58_4sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/64_merge-sorted-array/merge-sorted-array.java" target="_blank">64_merge-sorted-array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/69_binary-tree-level-order-traversal/binary-tree-level-order-traversal.java" target="_blank">69_binary-tree-level-order-traversal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/70_binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.java" target="_blank">70_binary-tree-level-order-traversal-ii</a>
+
+## Day - 16
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/102_linked-list-cycle/linked-list-cycle.java" target="_blank">102_linked-list-cycle</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/103_linked-list-cycle-ii/linked-list-cycle-ii.java" target="_blank">103_linked-list-cycle-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/104_merge-k-sorted-lists/merge-k-sorted-lists.java" target="_blank">104_merge-k-sorted-lists</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/56_two-sum/two-sum.java" target="_blank">56_two-sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/68_binary-tree-postorder-traversal/binary-tree-postorder-traversal.java" target="_blank">68_binary-tree-postorder-traversal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/76_longest-increasing-subsequence/longest-increasing-subsequence.java" target="_blank">76_longest-increasing-subsequence</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/77_longest-common-subsequence/longest-common-subsequence.java" target="_blank">77_longest-common-subsequence</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/78_longest-common-prefix/longest-common-prefix.java" target="_blank">78_longest-common-prefix</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/83_single-number-ii/single-number-ii.java" target="_blank">83_single-number-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/93_balanced-binary-tree/balanced-binary-tree.java" target="_blank">93_balanced-binary-tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/97_maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.java" target="_blank">97_maximum-depth-of-binary-tree</a>
+
+## Day - 17
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/106_convert-sorted-list-to-balanced-bst/convert-sorted-list-to-balanced-bst.java" target="_blank">106_convert-sorted-list-to-balanced-bst</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/109_triangle/triangle.java" target="_blank">109_triangle</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/111_climbing-stairs/climbing-stairs.java" target="_blank">111_climbing-stairs</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/113_remove-duplicates-from-sorted-list-ii/remove-duplicates-from-sorted-list-ii.java" target="_blank">113_remove-duplicates-from-sorted-list-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/115_unique-paths-ii/unique-paths-ii.java" target="_blank">115_unique-paths-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/116_jump-game/jump-game.java" target="_blank">116_jump-game</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/117_jump-game-ii/jump-game-ii.java" target="_blank">117_jump-game-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/130_heapify/heapify.java" target="_blank">130_heapify</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/141_sqrtx/sqrtx.java" target="_blank">141_sqrtx</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/148_sort-colors/sort-colors.java" target="_blank">148_sort-colors</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/150_best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.java" target="_blank">150_best-time-to-buy-and-sell-stock-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/152_combinations/combinations.java" target="_blank">152_combinations</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/155_minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.java" target="_blank">155_minimum-depth-of-binary-tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/165_merge-two-sorted-lists/merge-two-sorted-lists.java" target="_blank">165_merge-two-sorted-lists</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/166_nth-to-last-node-in-list/nth-to-last-node-in-list.java" target="_blank">166_nth-to-last-node-in-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/171_anagrams/anagrams.java" target="_blank">171_anagrams</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/174_remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java" target="_blank">174_remove-nth-node-from-end-of-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/365_count-1-in-binary/count-1-in-binary.java" target="_blank">365_count-1-in-binary</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/366_fibonacci/fibonacci.java" target="_blank">366_fibonacci</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/392_house-robber/house-robber.java" target="_blank">392_house-robber</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/408_add-binary/add-binary.java" target="_blank">408_add-binary</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/413_reverse-integer/reverse-integer.java" target="_blank">413_reverse-integer</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/420_count-and-say/count-and-say.java" target="_blank">420_count-and-say</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/422_length-of-last-word/length-of-last-word.java" target="_blank">422_length-of-last-word</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/44_minimum-subarray/minimum-subarray.java" target="_blank">44_minimum-subarray</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/59_3sum-closest/3sum-closest.java" target="_blank">59_3sum-closest</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/133_longest-words/longest-words.java" target="_blank">133_longest-words</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/423_valid-parentheses/valid-parentheses.java" target="_blank">423_valid-parentheses</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/632_binary-tree-maximum-node/binary-tree-maximum-node.java" target="_blank">632_binary-tree-maximum-node</a>
+
+## Day - 18
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/163_unique-binary-search-trees/unique-binary-search-trees.java" target="_blank">163_unique-binary-search-trees</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/175_invert-binary-tree/invert-binary-tree.java" target="_blank">175_invert-binary-tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/204_singleton/singleton.java" target="_blank">204_singleton</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/41_maximum-subarray/maximum-subarray.java" target="_blank">41_maximum-subarray</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/453_flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.java" target="_blank">453_flatten-binary-tree-to-linked-list</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/47_majority-number-ii/majority-number-ii.java" target="_blank">47_majority-number-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/48_majority-number-iii/majority-number-iii.java" target="_blank">48_majority-number-iii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/517_ugly-number/ugly-number.java" target="_blank">517_ugly-number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/539_move-zeroes/move-zeroes.java" target="_blank">539_move-zeroes</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/548_intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.java" target="_blank">548_intersection-of-two-arrays-ii</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/569_add-digits/add-digits.java" target="_blank">569_add-digits</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/627_longest-palindrome/longest-palindrome.java" target="_blank">627_longest-palindrome</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/638_strings-homomorphism/strings-homomorphism.java" target="_blank">638_strings-homomorphism</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/655_big-integer-addition/big-integer-addition.java" target="_blank">655_big-integer-addition</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/2_trailing-zeros/trailing-zeros.java" target="_blank">2_trailing-zeros</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/488_happy-number/happy-number.java" target="_blank">488_happy-number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/496_toy-factory/toy-factory.java" target="_blank">496_toy-factory</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/514_paint-fence/paint-fence.java" target="_blank">514_paint-fence</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/532_reverse-pairs/reverse-pairs.java" target="_blank">532_reverse-pairs</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LintCode/662_guess-number-game/guess-number-game.java" target="_blank">662_guess-number-game</a>
+
+---
 
 
 # LeetCode - 253 Problems
-* [001_Two_Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/001_Two_Sum/001_Two_Sum.java)
-* [002_Add_Two_Numbers](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/002_Add_Two_Numbers/002_Add_Two_Numbers.java)
-* [003_Longest_Substring_Without_Repeating_Characters](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/003_Longest_Substring_Without_Repeating_Characters/003_Longest_Substring_Without_Repeating_Characters.java)
-* [005_Longest_Palindromic_Substring](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/005_Longest_Palindromic_Substring/005_Longest_Palindromic_Substring.java)
-* [006_ZigZag_Conversion](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/006_ZigZag_Conversion/006_ZigZag_Conversion.java)
-* [007_Reverse_Integer](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/007_Reverse_Integer/007_Reverse_Integer.java)
-* [009_Palindrome_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/009_Palindrome_Number/009_Palindrome_Number.java)
-* [011_Container_With_Most_Water](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/011_Container_With_Most_Water/011_Container_With_Most_Water.java)
-* [013_Roman_to_Integer](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/013_Roman_to_Integer/013_Roman_to_Integer.java)
-* [013_Roman_to_Integer_2](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/013_Roman_to_Integer_2/013_Roman_to_Integer_2.java)
-* [014_Longest_Common_Prefix](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/014_Longest_Common_Prefix/014_Longest_Common_Prefix.java)
-* [015_3Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/015_3Sum/015_3Sum.java)
-* [016_3Sum_Closest](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/016_3Sum_Closest/016_3Sum_Closest.java)
-* [017_Letter_Combinations_of_a_Phone_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/017_Letter_Combinations_of_a_Phone_Number/017_Letter_Combinations_of_a_Phone_Number.java)
-* [018_4Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/018_4Sum/018_4Sum.java)
-* [019_Remove_Nth_Node_From_End_of_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/019_Remove_Nth_Node_From_End_of_List/019_Remove_Nth_Node_From_End_of_List.java)
-* [020_Valid_Parentheses](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/020_Valid_Parentheses/020_Valid_Parentheses.java)
-* [021_Merge_Two_Sorted_Lists](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/021_Merge_Two_Sorted_Lists/021_Merge_Two_Sorted_Lists.java)
-* [022_Generate_Parentheses](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/022_Generate_Parentheses/022_Generate_Parentheses.java)
-* [024_Swap_Nodes_in_Pairs](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/024_Swap_Nodes_in_Pairs/024_Swap_Nodes_in_Pairs.java)
-* [026_Remove_Duplicates_from_Sorted_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/026_Remove_Duplicates_from_Sorted_Array/026_Remove_Duplicates_from_Sorted_Array.java)
-* [027_Remove_Element](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/027_Remove_Element/027_Remove_Element.java)
-* [028_Implement_strStr()](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/028_Implement_strStr()/028_Implement_strStr().java)
-* [031_Next_Permutation](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/031_Next_Permutation/031_Next_Permutation.java)
-* [033_Search_in_Rotated_Sorted_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/033_Search_in_Rotated_Sorted_Array/033_Search_in_Rotated_Sorted_Array.java)
-* [034_Search_for_a_Range](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/034_Search_for_a_Range/034_Search_for_a_Range.java)
-* [035_Search_Insert_Position](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/035_Search_Insert_Position/035_Search_Insert_Position.java)
-* [038_Count_and_Say](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/038_Count_and_Say/038_Count_and_Say.java)
-* [039_Combination_Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/039_Combination_Sum/039_Combination_Sum.java)
-* [040_Combination_Sum_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/040_Combination_Sum_II/040_Combination_Sum_II.java)
-* [042_Trapping_Rain_Water](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/042_Trapping_Rain_Water/042_Trapping_Rain_Water.java)
-* [046_Permutations](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/046_Permutations/046_Permutations.java)
-* [047_Permutations_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/047_Permutations_II/047_Permutations_II.java)
-* [048_Rotate_Image](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/048_Rotate_Image/048_Rotate_Image.java)
-* [049_Group_Anagrams](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/049_Group_Anagrams/049_Group_Anagrams.java)
-* [050_Pow(x,_n)](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/050_Pow(x,_n)/050_Pow(x,_n).java)
-* [053_Maximum_Subarray](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/053_Maximum_Subarray/053_Maximum_Subarray.java)
-* [054_Spiral_Matrix_](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/054_Spiral_Matrix_/054_Spiral_Matrix_.java)
-* [055_Jump_Game](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/055_Jump_Game/055_Jump_Game.java)
-* [056_Merge_Intervals](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/056_Merge_Intervals/056_Merge_Intervals.java)
-* [058_Length_of_Last_Word](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/058_Length_of_Last_Word/058_Length_of_Last_Word.java)
-* [059_Spiral_Matrix_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/059_Spiral_Matrix_II/059_Spiral_Matrix_II.java)
-* [060_Permutation_Sequence](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/060_Permutation_Sequence/060_Permutation_Sequence.java)
-* [061_Rotate_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/061_Rotate_List/061_Rotate_List.java)
-* [062_Unique_Paths](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/062_Unique_Paths/062_Unique_Paths.java)
-* [063_Unique_Paths_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/063_Unique_Paths_II/063_Unique_Paths_II.java)
-* [064_Minimum_Path_Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/064_Minimum_Path_Sum/064_Minimum_Path_Sum.java)
-* [066_Plus_One](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/066_Plus_One/066_Plus_One.java)
-* [067_Add_Binary](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/067_Add_Binary/067_Add_Binary.java)
-* [069_Sqrt(x)](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/069_Sqrt(x)/069_Sqrt(x).java)
-* [070_Climbing_Stairs](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/070_Climbing_Stairs/070_Climbing_Stairs.java)
-* [071_Simplify_Path](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/071_Simplify_Path/071_Simplify_Path.java)
-* [072_Edit_Distance](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/072_Edit_Distance/072_Edit_Distance.java)
-* [073_Set_Matrix_Zeroes](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/073_Set_Matrix_Zeroes/073_Set_Matrix_Zeroes.java)
-* [074_Search_a_2D_Matrix](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/074_Search_a_2D_Matrix/074_Search_a_2D_Matrix.java)
-* [075_Sort_Colors](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/075_Sort_Colors/075_Sort_Colors.java)
-* [076_Minimum_Window_Substring](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/076_Minimum_Window_Substring/076_Minimum_Window_Substring.java)
-* [077_Combinations](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/077_Combinations/077_Combinations.java)
-* [078_Subsets](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/078_Subsets/078_Subsets.java)
-* [079_Word_Search](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/079_Word_Search/079_Word_Search.java)
-* [080_Remove_Duplicates_from_Sorted_Array_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/080_Remove_Duplicates_from_Sorted_Array_II/080_Remove_Duplicates_from_Sorted_Array_II.java)
-* [081_Search_in_Rotated_Sorted_Array_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/081_Search_in_Rotated_Sorted_Array_II/081_Search_in_Rotated_Sorted_Array_II.java)
-* [082_Remove_Duplicates_from_Sorted_List_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/082_Remove_Duplicates_from_Sorted_List_II/082_Remove_Duplicates_from_Sorted_List_II.java)
-* [083_Remove_Duplicates_from_Sorted_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/083_Remove_Duplicates_from_Sorted_List/083_Remove_Duplicates_from_Sorted_List.java)
-* [084_Largest_Rectangle_in_Histogram](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/084_Largest_Rectangle_in_Histogram/084_Largest_Rectangle_in_Histogram.java)
-* [086_Partition_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/086_Partition_List/086_Partition_List.java)
-* [088_Merge_Sorted_Array_[Slow]](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/088_Merge_Sorted_Array_[Slow]/088_Merge_Sorted_Array_[Slow].java)
-* [090_Subsets_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/090_Subsets_II/090_Subsets_II.java)
-* [091_Decode_Ways](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/091_Decode_Ways/091_Decode_Ways.java)
-* [092_Reverse_Linked_List_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/092_Reverse_Linked_List_II/092_Reverse_Linked_List_II.java)
-* [094_Binary_Tree_Inorder_Traversal](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/094_Binary_Tree_Inorder_Traversal/094_Binary_Tree_Inorder_Traversal.java)
-* [097_Interleaving_String](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/097_Interleaving_String/097_Interleaving_String.java)
-* [098_Validate_Binary_Search_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/098_Validate_Binary_Search_Tree/098_Validate_Binary_Search_Tree.java)
-* [100_Same_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/100_Same_Tree/100_Same_Tree.java)
-* [101_Symmetric_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/101_Symmetric_Tree/101_Symmetric_Tree.java)
-* [102_Binary_Tree_Level_Order_Traversal](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/102_Binary_Tree_Level_Order_Traversal/102_Binary_Tree_Level_Order_Traversal.java)
-* [103_Binary_Tree_Zigzag_Level_Order_Traversal](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/103_Binary_Tree_Zigzag_Level_Order_Traversal/103_Binary_Tree_Zigzag_Level_Order_Traversal.java)
-* [104_Maximum_Depth_of_Binary_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/104_Maximum_Depth_of_Binary_Tree/104_Maximum_Depth_of_Binary_Tree.java)
-* [105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java)
-* [106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java)
-* [107_Binary_Tree_Level_Order_Traversal_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/107_Binary_Tree_Level_Order_Traversal_II/107_Binary_Tree_Level_Order_Traversal_II.java)
-* [108_Convert_Sorted_Array_to_Binary_Search_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/108_Convert_Sorted_Array_to_Binary_Search_Tree/108_Convert_Sorted_Array_to_Binary_Search_Tree.java)
-* [109_Convert_Sorted_List_to_Binary_Search_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/109_Convert_Sorted_List_to_Binary_Search_Tree/109_Convert_Sorted_List_to_Binary_Search_Tree.java)
-* [110_Balanced_Binary_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/110_Balanced_Binary_Tree/110_Balanced_Binary_Tree.java)
-* [111_Minimum_Depth_of_Binary_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/111_Minimum_Depth_of_Binary_Tree/111_Minimum_Depth_of_Binary_Tree.java)
-* [112_Path_Sum_](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/112_Path_Sum_/112_Path_Sum_.java)
-* [113_Path_Sum_II_](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/113_Path_Sum_II_/113_Path_Sum_II_.java)
-* [114_Flatten_Binary_Tree_to_Linked_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/114_Flatten_Binary_Tree_to_Linked_List/114_Flatten_Binary_Tree_to_Linked_List.java)
-* [116_Populating_Next_Right_Pointers_in_Each_Node](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/116_Populating_Next_Right_Pointers_in_Each_Node/116_Populating_Next_Right_Pointers_in_Each_Node.java)
-* [118_Pascal's_Triangle](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/118_Pascal's_Triangle/118_Pascal's_Triangle.java)
-* [119_Pascal's_Triangle_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/119_Pascal's_Triangle_II/119_Pascal's_Triangle_II.java)
-* [120_Triangle](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/120_Triangle/120_Triangle.java)
-* [121_Best_Time_to_Buy_and_Sell_Stock](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/121_Best_Time_to_Buy_and_Sell_Stock/121_Best_Time_to_Buy_and_Sell_Stock.java)
-* [122_Best_Time_to_Buy_and_Sell_Stock_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/122_Best_Time_to_Buy_and_Sell_Stock_II/122_Best_Time_to_Buy_and_Sell_Stock_II.java)
-* [124_Binary_Tree_Maximum_Path_Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/124_Binary_Tree_Maximum_Path_Sum/124_Binary_Tree_Maximum_Path_Sum.java)
-* [125_Valid_Palindrome](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/125_Valid_Palindrome/125_Valid_Palindrome.java)
-* [129_Sum_Root_to_Leaf_Numbers](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/129_Sum_Root_to_Leaf_Numbers/129_Sum_Root_to_Leaf_Numbers.java)
-* [133_Clone_Graph](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/133_Clone_Graph/133_Clone_Graph.java)
-* [136_Single_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/136_Single_Number/136_Single_Number.java)
-* [137_Single_Number_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/137_Single_Number_II/137_Single_Number_II.java)
-* [141_Linked_List_Cycle](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/141_Linked_List_Cycle/141_Linked_List_Cycle.java)
-* [142_Linked_List_Cycle_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/142_Linked_List_Cycle_II/142_Linked_List_Cycle_II.java)
-* [144_Binary_Tree_Preorder_Traversal_](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/144_Binary_Tree_Preorder_Traversal_/144_Binary_Tree_Preorder_Traversal_.java)
-* [146_LRU_Cache](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/146_LRU_Cache/146_LRU_Cache.java)
-* [150_Evaluate_Reverse_Polish_Notation](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/150_Evaluate_Reverse_Polish_Notation/150_Evaluate_Reverse_Polish_Notation.java)
-* [151_Reverse_Words_in_a_String](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/151_Reverse_Words_in_a_String/151_Reverse_Words_in_a_String.java)
-* [152_Maximum_Product_Subarray](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/152_Maximum_Product_Subarray/152_Maximum_Product_Subarray.java)
-* [153_Find_Minimum_in_Rotated_Sorted_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/153_Find_Minimum_in_Rotated_Sorted_Array/153_Find_Minimum_in_Rotated_Sorted_Array.java)
-* [154_Find_Minimum_in_Rotated_Sorted_Array_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/154_Find_Minimum_in_Rotated_Sorted_Array_II/154_Find_Minimum_in_Rotated_Sorted_Array_II.java)
-* [155_Min_Stack](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/155_Min_Stack/155_Min_Stack.java)
-* [160_Intersection_of_Two_Linked_Lists](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/160_Intersection_of_Two_Linked_Lists/160_Intersection_of_Two_Linked_Lists.java)
-* [162_Find_Peak_Element](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/162_Find_Peak_Element/162_Find_Peak_Element.java)
-* [165_Compare_Version_Numbers](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/165_Compare_Version_Numbers/165_Compare_Version_Numbers.java)
-* [167_Two_Sum_II_Input_array_is_sorted](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/167_Two_Sum_II_Input_array_is_sorted/167_Two_Sum_II_Input_array_is_sorted.java)
-* [169_Majority_Element](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/169_Majority_Element/169_Majority_Element.java)
-* [171_Excel_Sheet_Column_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/171_Excel_Sheet_Column_Number/171_Excel_Sheet_Column_Number.java)
-* [173_Binary_Search_Tree_Iterator](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/173_Binary_Search_Tree_Iterator/173_Binary_Search_Tree_Iterator.java)
-* [179_Largest_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/179_Largest_Number/179_Largest_Number.java)
-* [189_Rotate_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/189_Rotate_Array/189_Rotate_Array.java)
-* [190_Reverse_Bits](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/190_Reverse_Bits/190_Reverse_Bits.java)
-* [191_Number_of_1_Bits](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/191_Number_of_1_Bits/191_Number_of_1_Bits.java)
-* [198_House_Robber](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/198_House_Robber/198_House_Robber.java)
-* [200_Number_of_Islands](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/200_Number_of_Islands/200_Number_of_Islands.java)
-* [202_Happy_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/202_Happy_Number/202_Happy_Number.java)
-* [203_Remove_Linked_List_Elements](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/203_Remove_Linked_List_Elements/203_Remove_Linked_List_Elements.java)
-* [204_Count_Primes](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/204_Count_Primes/204_Count_Primes.java)
-* [205_Isomorphic_Strings](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/205_Isomorphic_Strings/205_Isomorphic_Strings.java)
-* [206_Reverse_Linked_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/206_Reverse_Linked_List/206_Reverse_Linked_List.java)
-* [209_Minimum_Size_Subarray_Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/209_Minimum_Size_Subarray_Sum/209_Minimum_Size_Subarray_Sum.java)
-* [211_Add_and_Search_Word_Data_structure_design](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/211_Add_and_Search_Word_Data_structure_design/211_Add_and_Search_Word_Data_structure_design.java)
-* [215_Kth_Largest_Element_in_an_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/215_Kth_Largest_Element_in_an_Array/215_Kth_Largest_Element_in_an_Array.java)
-* [216_Combination_Sum_III](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/216_Combination_Sum_III/216_Combination_Sum_III.java)
-* [217_Contains_Duplicate](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/217_Contains_Duplicate/217_Contains_Duplicate.java)
-* [219_Contains_Duplicate_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/219_Contains_Duplicate_II/219_Contains_Duplicate_II.java)
-* [221_Maximal_Square](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/221_Maximal_Square/221_Maximal_Square.java)
-* [222_Count_Complete_Tree_Nodes](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/222_Count_Complete_Tree_Nodes/222_Count_Complete_Tree_Nodes.java)
-* [225_Implement_Stack_using_Queues](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/225_Implement_Stack_using_Queues/225_Implement_Stack_using_Queues.java)
-* [226_Invert_Binary_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/226_Invert_Binary_Tree/226_Invert_Binary_Tree.java)
-* [228_Summary_Ranges](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/228_Summary_Ranges/228_Summary_Ranges.java)
-* [229_Majority_Element_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/229_Majority_Element_II/229_Majority_Element_II.java)
-* [230_Kth_Smallest_Element_in_a_BST_](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/230_Kth_Smallest_Element_in_a_BST_/230_Kth_Smallest_Element_in_a_BST_.java)
-* [231_Power_of_Two](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/231_Power_of_Two/231_Power_of_Two.java)
-* [232_Implement_Queue_using_Stack](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/232_Implement_Queue_using_Stack/232_Implement_Queue_using_Stack.java)
-* [234_Palindrome_Linked_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/234_Palindrome_Linked_List/234_Palindrome_Linked_List.java)
-* [235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree/235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java)
-* [237_Delete_Node_in_a_Linked_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.java)
-* [238_Product_of_Array_Except_Self](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/238_Product_of_Array_Except_Self/238_Product_of_Array_Except_Self.java)
-* [240_Search_a_2D_Matrix_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/240_Search_a_2D_Matrix_II/240_Search_a_2D_Matrix_II.java)
-* [242_Valid_Anagram](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/242_Valid_Anagram/242_Valid_Anagram.java)
-* [257_Binary_Tree_Paths](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/257_Binary_Tree_Paths/257_Binary_Tree_Paths.java)
-* [258_Add_Digits_](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/258_Add_Digits_/258_Add_Digits_.java)
-* [260_Single_Number_III](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/260_Single_Number_III/260_Single_Number_III.java)
-* [263_Ugly_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/263_Ugly_Number/263_Ugly_Number.java)
-* [264_Ugly_Number_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/264_Ugly_Number_II/264_Ugly_Number_II.java)
-* [268_Missing_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/268_Missing_Number/268_Missing_Number.java)
-* [268_Missing_Number[NOT_TEST]](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/268_Missing_Number[NOT_TEST]/268_Missing_Number[NOT_TEST].java)
-* [274_H-Index](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/274_H-Index/274_H-Index.java)
-* [278_First_Bad_Version](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/278_First_Bad_Version/278_First_Bad_Version.java)
-* [283_Move_Zeroes](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/283_Move_Zeroes/283_Move_Zeroes.java)
-* [287_Find_the_Duplicate_Number](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.java)
-* [289_Game_of_Life](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/289_Game_of_Life/289_Game_of_Life.java)
-* [290_Word_Pattern](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/290_Word_Pattern/290_Word_Pattern.java)
-* [292_Nim_Game](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/292_Nim_Game/292_Nim_Game.java)
-* [295_Find_Median_from_Data_Stream](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/295_Find_Median_from_Data_Stream/295_Find_Median_from_Data_Stream.java)
-* [297_Serialize_and_Deserialize_Binary_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/297_Serialize_and_Deserialize_Binary_Tree/297_Serialize_and_Deserialize_Binary_Tree.java)
-* [299_Bulls_and_Cows](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/299_Bulls_and_Cows/299_Bulls_and_Cows.java)
-* [300_Longest_Increasing_Subsequence](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/300_Longest_Increasing_Subsequence/300_Longest_Increasing_Subsequence.java)
-* [303_Range_Sum_Query_Immutable](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/303_Range_Sum_Query_Immutable/303_Range_Sum_Query_Immutable.java)
-* [326_Power_of_Three](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/326_Power_of_Three/326_Power_of_Three.java)
-* [328_Odd_Even_Linked_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/328_Odd_Even_Linked_List/328_Odd_Even_Linked_List.java)
-* [331_Verify_Preorder_Serialization_of_a_Binary_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/331_Verify_Preorder_Serialization_of_a_Binary_Tree/331_Verify_Preorder_Serialization_of_a_Binary_Tree.java)
-* [334_Increasing_Triplet_Subsequence](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/334_Increasing_Triplet_Subsequence/334_Increasing_Triplet_Subsequence.java)
-* [338_Counting_Bits](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/338_Counting_Bits/338_Counting_Bits.java)
-* [341_Flatten_Nested_List_Iterator](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/341_Flatten_Nested_List_Iterator/341_Flatten_Nested_List_Iterator.java)
-* [342_Power_of_Four_](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/342_Power_of_Four_/342_Power_of_Four_.java)
-* [344_Reverse_String](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/344_Reverse_String/344_Reverse_String.java)
-* [345_Reverse_Vowels_of_a_String](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/345_Reverse_Vowels_of_a_String/345_Reverse_Vowels_of_a_String.java)
-* [347_Top_K_Frequent_Elements](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/347_Top_K_Frequent_Elements/347_Top_K_Frequent_Elements.java)
-* [349_Intersection_of_Two_Arrays](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/349_Intersection_of_Two_Arrays/349_Intersection_of_Two_Arrays.java)
-* [350_Intersection_of_Two_Arrays_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/350_Intersection_of_Two_Arrays_II/350_Intersection_of_Two_Arrays_II.java)
-* [367_Valid_Perfect_Square](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/367_Valid_Perfect_Square/367_Valid_Perfect_Square.java)
-* [368_Largest_Divisible_Subset](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/368_Largest_Divisible_Subset/368_Largest_Divisible_Subset.java)
-* [371_Sum_of_Two_Integers](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/371_Sum_of_Two_Integers/371_Sum_of_Two_Integers.java)
-* [373_Find_K_Pairs_with_Smallest_Sums](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/373_Find_K_Pairs_with_Smallest_Sums/373_Find_K_Pairs_with_Smallest_Sums.java)
-* [374_Guess_Number_Higher_or_Lower](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/374_Guess_Number_Higher_or_Lower/374_Guess_Number_Higher_or_Lower.java)
-* [378_Kth_Smallest_Element_in_a_Sorted_Matrix](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/378_Kth_Smallest_Element_in_a_Sorted_Matrix/378_Kth_Smallest_Element_in_a_Sorted_Matrix.java)
-* [380_Insert_Delete_GetRandom_O(1)](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/380_Insert_Delete_GetRandom_O(1)/380_Insert_Delete_GetRandom_O(1).java)
-* [382_Linked_List_Random_Node](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/382_Linked_List_Random_Node/382_Linked_List_Random_Node.java)
-* [383_Ransom_Note](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/383_Ransom_Note/383_Ransom_Note.java)
-* [384_Shuffle_an_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/384_Shuffle_an_Array/384_Shuffle_an_Array.java)
-* [385_Mini_Parser](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/385_Mini_Parser/385_Mini_Parser.java)
-* [387_First_Unique_Character_in_a_String](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/387_First_Unique_Character_in_a_String/387_First_Unique_Character_in_a_String.java)
-* [389_Find_the_Difference](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/389_Find_the_Difference/389_Find_the_Difference.java)
-* [392_Is_Subsequence](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/392_Is_Subsequence/392_Is_Subsequence.java)
-* [394_Decode_String](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/394_Decode_String/394_Decode_String.java)
-* [397_Integer_Replacement](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/397_Integer_Replacement/397_Integer_Replacement.java)
-* [404_Sum_of_Left_Leaves](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/404_Sum_of_Left_Leaves/404_Sum_of_Left_Leaves.java)
-* [405_Convert_a_Number_to_Hexadecimal](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/405_Convert_a_Number_to_Hexadecimal/405_Convert_a_Number_to_Hexadecimal.java)
-* [406_Queue_Reconstruction_by_Height](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/406_Queue_Reconstruction_by_Height/406_Queue_Reconstruction_by_Height.java)
-* [409_Longest_Palindrome](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/409_Longest_Palindrome/409_Longest_Palindrome.java)
-* [412_Fizz_Buzz](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/412_Fizz_Buzz/412_Fizz_Buzz.java)
-* [414_Third_Maximum_Number[MORE_SOLUTION]](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/414_Third_Maximum_Number[MORE_SOLUTION]/414_Third_Maximum_Number[MORE_SOLUTION].java)
-* [415_Add_Strings](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/415_Add_Strings/415_Add_Strings.java)
-* [434_Number_of_Segments_in_a_String](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/434_Number_of_Segments_in_a_String/434_Number_of_Segments_in_a_String.java)
-* [437_Path_Sum_III](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/437_Path_Sum_III/437_Path_Sum_III.java)
-* [438_Find_All_Anagrams_in_a_String](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/438_Find_All_Anagrams_in_a_String/438_Find_All_Anagrams_in_a_String.java)
-* [441_Arranging_Coins](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/441_Arranging_Coins/441_Arranging_Coins.java)
-* [442_Find_All_Duplicates_in_an_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/442_Find_All_Duplicates_in_an_Array/442_Find_All_Duplicates_in_an_Array.java)
-* [445_Add_Two_Numbers_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/445_Add_Two_Numbers_II/445_Add_Two_Numbers_II.java)
-* [447_Number_of_Boomerangs](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/447_Number_of_Boomerangs/447_Number_of_Boomerangs.java)
-* [448_Find_All_Numbers_Disappeared_in_an_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/448_Find_All_Numbers_Disappeared_in_an_Array/448_Find_All_Numbers_Disappeared_in_an_Array.java)
-* [451_Sort_Characters_By_Frequency](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/451_Sort_Characters_By_Frequency/451_Sort_Characters_By_Frequency.java)
-* [453_Minimum_Moves_to_Equal_Array_Elements](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/453_Minimum_Moves_to_Equal_Array_Elements/453_Minimum_Moves_to_Equal_Array_Elements.java)
-* [454_4Sum_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/454_4Sum_II/454_4Sum_II.java)
-* [455_-._Assign_Cookies](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/455_-._Assign_Cookies/455_-._Assign_Cookies.java)
-* [459_Repeated_Substring_Pattern](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/459_Repeated_Substring_Pattern/459_Repeated_Substring_Pattern.java)
-* [461_Hamming_Distance](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/461_Hamming_Distance/461_Hamming_Distance.java)
-* [462_Minimum_Moves_to_Equal_Array_Elements_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/462_Minimum_Moves_to_Equal_Array_Elements_II/462_Minimum_Moves_to_Equal_Array_Elements_II.java)
-* [463_Island_Perimeter](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/463_Island_Perimeter/463_Island_Perimeter.java)
-* [475_Heaters](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/475_Heaters/475_Heaters.java)
-* [476_Number_Complement_Add_to_List](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/476_Number_Complement_Add_to_List/476_Number_Complement_Add_to_List.java)
-* [477_Total_Hamming_Distance](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/477_Total_Hamming_Distance/477_Total_Hamming_Distance.java)
-* [480_Sliding_Window_Median](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/480_Sliding_Window_Median/480_Sliding_Window_Median.java)
-* [485_Max_Consecutive_Ones](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/485_Max_Consecutive_Ones/485_Max_Consecutive_Ones.java)
-* [492_Construct_the_Rectangle](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/492_Construct_the_Rectangle/492_Construct_the_Rectangle.java)
-* [494_Target_Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/494_Target_Sum/494_Target_Sum.java)
-* [495_Teemo_Attacking](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/495_Teemo_Attacking/495_Teemo_Attacking.java)
-* [496_Next_Greater_Element_I](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/496_Next_Greater_Element_I/496_Next_Greater_Element_I.java)
-* [498_Diagonal_Traverse](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/498_Diagonal_Traverse/498_Diagonal_Traverse.java)
-* [500_Keyboard_Row](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/500_Keyboard_Row/500_Keyboard_Row.java)
-* [501_Find_Mode_in_Binary_Search_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/501_Find_Mode_in_Binary_Search_Tree/501_Find_Mode_in_Binary_Search_Tree.java)
-* [504_Base_7](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/504_Base_7/504_Base_7.java)
-* [506_Relative_Ranks](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/506_Relative_Ranks/506_Relative_Ranks.java)
-* [508_Most_Frequent_Subtree_Sum](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/508_Most_Frequent_Subtree_Sum/508_Most_Frequent_Subtree_Sum.java)
-* [513_Find_Bottom_Left_Tree_Value](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/513_Find_Bottom_Left_Tree_Value/513_Find_Bottom_Left_Tree_Value.java)
-* [515_Find_Largest_Value_in_Each_Tree_Row](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/515_Find_Largest_Value_in_Each_Tree_Row/515_Find_Largest_Value_in_Each_Tree_Row.java)
-* [520_Detect_Capital](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/520_Detect_Capital/520_Detect_Capital.java)
-* [521_Longest_Uncommon_Subsequence_I](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/521_Longest_Uncommon_Subsequence_I/521_Longest_Uncommon_Subsequence_I.java)
-* [525_Contiguous_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/525_Contiguous_Array/525_Contiguous_Array.java)
-* [530_Minimum_Absolute_Difference_in_BST](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/530_Minimum_Absolute_Difference_in_BST/530_Minimum_Absolute_Difference_in_BST.java)
-* [532_K-diff_Pairs_in_an_Array](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/532_K-diff_Pairs_in_an_Array/532_K-diff_Pairs_in_an_Array.java)
-* [535_Encode_and_Decode_TinyURL](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/535_Encode_and_Decode_TinyURL/535_Encode_and_Decode_TinyURL.java)
-* [538_Convert_BST_to_Greater_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/538_Convert_BST_to_Greater_Tree/538_Convert_BST_to_Greater_Tree.java)
-* [539_Minimum_Time_Difference](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/539_Minimum_Time_Difference/539_Minimum_Time_Difference.java)
-* [541_Reverse_String_II](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/541_Reverse_String_II/541_Reverse_String_II.java)
-* [543_Diameter_of_Binary_Tree](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/543_Diameter_of_Binary_Tree/543_Diameter_of_Binary_Tree.java)
-* [547_Friend_Circles](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/547_Friend_Circles/547_Friend_Circles.java)
-* [551_Student_Attendance_Record_I](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/551_Student_Attendance_Record_I/551_Student_Attendance_Record_I.java)
-* [554_Brick_Wall](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/554_Brick_Wall/554_Brick_Wall.java)
-* [557_Reverse_Words_in_a_String_III](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/557_Reverse_Words_in_a_String_III/557_Reverse_Words_in_a_String_III.java)
-* [561_Array_Partition_I](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/561_Array_Partition_I/561_Array_Partition_I.java)
-* [563_Binary_Tree_Tilt](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/563_Binary_Tree_Tilt/563_Binary_Tree_Tilt.java)
-* [566_Reshape_the_Matrix](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/566_Reshape_the_Matrix/566_Reshape_the_Matrix.java)
-* [575_Distribute_Candies](https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/575_Distribute_Candies/575_Distribute_Candies.java)
 
-# 18 Days of LintCode - 210 Problems
-### [LintCode](http://www.lintcode.com/en/problem/)
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/001_Two_Sum/001_Two_Sum.java" target="_blank">001_Two_Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/002_Add_Two_Numbers/002_Add_Two_Numbers.java" target="_blank">002_Add_Two_Numbers</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/003_Longest_Substring_Without_Repeating_Characters/003_Longest_Substring_Without_Repeating_Characters.java" target="_blank">003_Longest_Substring_Without_Repeating_Characters</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/005_Longest_Palindromic_Substring/005_Longest_Palindromic_Substring.java" target="_blank">005_Longest_Palindromic_Substring</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/006_ZigZag_Conversion/006_ZigZag_Conversion.java" target="_blank">006_ZigZag_Conversion</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/007_Reverse_Integer/007_Reverse_Integer.java" target="_blank">007_Reverse_Integer</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/009_Palindrome_Number/009_Palindrome_Number.java" target="_blank">009_Palindrome_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/011_Container_With_Most_Water/011_Container_With_Most_Water.java" target="_blank">011_Container_With_Most_Water</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/013_Roman_to_Integer/013_Roman_to_Integer.java" target="_blank">013_Roman_to_Integer</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/013_Roman_to_Integer_2/013_Roman_to_Integer_2.java" target="_blank">013_Roman_to_Integer_2</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/014_Longest_Common_Prefix/014_Longest_Common_Prefix.java" target="_blank">014_Longest_Common_Prefix</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/015_3Sum/015_3Sum.java" target="_blank">015_3Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/016_3Sum_Closest/016_3Sum_Closest.java" target="_blank">016_3Sum_Closest</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/017_Letter_Combinations_of_a_Phone_Number/017_Letter_Combinations_of_a_Phone_Number.java" target="_blank">017_Letter_Combinations_of_a_Phone_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/018_4Sum/018_4Sum.java" target="_blank">018_4Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/019_Remove_Nth_Node_From_End_of_List/019_Remove_Nth_Node_From_End_of_List.java" target="_blank">019_Remove_Nth_Node_From_End_of_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/020_Valid_Parentheses/020_Valid_Parentheses.java" target="_blank">020_Valid_Parentheses</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/021_Merge_Two_Sorted_Lists/021_Merge_Two_Sorted_Lists.java" target="_blank">021_Merge_Two_Sorted_Lists</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/022_Generate_Parentheses/022_Generate_Parentheses.java" target="_blank">022_Generate_Parentheses</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/024_Swap_Nodes_in_Pairs/024_Swap_Nodes_in_Pairs.java" target="_blank">024_Swap_Nodes_in_Pairs</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/026_Remove_Duplicates_from_Sorted_Array/026_Remove_Duplicates_from_Sorted_Array.java" target="_blank">026_Remove_Duplicates_from_Sorted_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/027_Remove_Element/027_Remove_Element.java" target="_blank">027_Remove_Element</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/028_Implement_strStr()/028_Implement_strStr().java" target="_blank">028_Implement_strStr()</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/031_Next_Permutation/031_Next_Permutation.java" target="_blank">031_Next_Permutation</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/033_Search_in_Rotated_Sorted_Array/033_Search_in_Rotated_Sorted_Array.java" target="_blank">033_Search_in_Rotated_Sorted_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/034_Search_for_a_Range/034_Search_for_a_Range.java" target="_blank">034_Search_for_a_Range</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/035_Search_Insert_Position/035_Search_Insert_Position.java" target="_blank">035_Search_Insert_Position</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/038_Count_and_Say/038_Count_and_Say.java" target="_blank">038_Count_and_Say</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/039_Combination_Sum/039_Combination_Sum.java" target="_blank">039_Combination_Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/040_Combination_Sum_II/040_Combination_Sum_II.java" target="_blank">040_Combination_Sum_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/042_Trapping_Rain_Water/042_Trapping_Rain_Water.java" target="_blank">042_Trapping_Rain_Water</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/046_Permutations/046_Permutations.java" target="_blank">046_Permutations</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/047_Permutations_II/047_Permutations_II.java" target="_blank">047_Permutations_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/048_Rotate_Image/048_Rotate_Image.java" target="_blank">048_Rotate_Image</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/049_Group_Anagrams/049_Group_Anagrams.java" target="_blank">049_Group_Anagrams</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/050_Pow(x,_n)/050_Pow(x,_n).java" target="_blank">050_Pow(x,_n)</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/053_Maximum_Subarray/053_Maximum_Subarray.java" target="_blank">053_Maximum_Subarray</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/054_Spiral_Matrix_/054_Spiral_Matrix_.java" target="_blank">054_Spiral_Matrix_</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/055_Jump_Game/055_Jump_Game.java" target="_blank">055_Jump_Game</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/056_Merge_Intervals/056_Merge_Intervals.java" target="_blank">056_Merge_Intervals</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/058_Length_of_Last_Word/058_Length_of_Last_Word.java" target="_blank">058_Length_of_Last_Word</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/059_Spiral_Matrix_II/059_Spiral_Matrix_II.java" target="_blank">059_Spiral_Matrix_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/060_Permutation_Sequence/060_Permutation_Sequence.java" target="_blank">060_Permutation_Sequence</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/061_Rotate_List/061_Rotate_List.java" target="_blank">061_Rotate_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/062_Unique_Paths/062_Unique_Paths.java" target="_blank">062_Unique_Paths</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/063_Unique_Paths_II/063_Unique_Paths_II.java" target="_blank">063_Unique_Paths_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/064_Minimum_Path_Sum/064_Minimum_Path_Sum.java" target="_blank">064_Minimum_Path_Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/066_Plus_One/066_Plus_One.java" target="_blank">066_Plus_One</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/067_Add_Binary/067_Add_Binary.java" target="_blank">067_Add_Binary</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/069_Sqrt(x)/069_Sqrt(x).java" target="_blank">069_Sqrt(x)</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/070_Climbing_Stairs/070_Climbing_Stairs.java" target="_blank">070_Climbing_Stairs</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/071_Simplify_Path/071_Simplify_Path.java" target="_blank">071_Simplify_Path</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/072_Edit_Distance/072_Edit_Distance.java" target="_blank">072_Edit_Distance</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/073_Set_Matrix_Zeroes/073_Set_Matrix_Zeroes.java" target="_blank">073_Set_Matrix_Zeroes</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/074_Search_a_2D_Matrix/074_Search_a_2D_Matrix.java" target="_blank">074_Search_a_2D_Matrix</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/075_Sort_Colors/075_Sort_Colors.java" target="_blank">075_Sort_Colors</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/076_Minimum_Window_Substring/076_Minimum_Window_Substring.java" target="_blank">076_Minimum_Window_Substring</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/077_Combinations/077_Combinations.java" target="_blank">077_Combinations</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/078_Subsets/078_Subsets.java" target="_blank">078_Subsets</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/079_Word_Search/079_Word_Search.java" target="_blank">079_Word_Search</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/080_Remove_Duplicates_from_Sorted_Array_II/080_Remove_Duplicates_from_Sorted_Array_II.java" target="_blank">080_Remove_Duplicates_from_Sorted_Array_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/081_Search_in_Rotated_Sorted_Array_II/081_Search_in_Rotated_Sorted_Array_II.java" target="_blank">081_Search_in_Rotated_Sorted_Array_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/082_Remove_Duplicates_from_Sorted_List_II/082_Remove_Duplicates_from_Sorted_List_II.java" target="_blank">082_Remove_Duplicates_from_Sorted_List_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/083_Remove_Duplicates_from_Sorted_List/083_Remove_Duplicates_from_Sorted_List.java" target="_blank">083_Remove_Duplicates_from_Sorted_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/084_Largest_Rectangle_in_Histogram/084_Largest_Rectangle_in_Histogram.java" target="_blank">084_Largest_Rectangle_in_Histogram</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/086_Partition_List/086_Partition_List.java" target="_blank">086_Partition_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/088_Merge_Sorted_Array_[Slow]/088_Merge_Sorted_Array_[Slow].java" target="_blank">088_Merge_Sorted_Array_[Slow]</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/090_Subsets_II/090_Subsets_II.java" target="_blank">090_Subsets_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/091_Decode_Ways/091_Decode_Ways.java" target="_blank">091_Decode_Ways</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/092_Reverse_Linked_List_II/092_Reverse_Linked_List_II.java" target="_blank">092_Reverse_Linked_List_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/094_Binary_Tree_Inorder_Traversal/094_Binary_Tree_Inorder_Traversal.java" target="_blank">094_Binary_Tree_Inorder_Traversal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/097_Interleaving_String/097_Interleaving_String.java" target="_blank">097_Interleaving_String</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/098_Validate_Binary_Search_Tree/098_Validate_Binary_Search_Tree.java" target="_blank">098_Validate_Binary_Search_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/100_Same_Tree/100_Same_Tree.java" target="_blank">100_Same_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/101_Symmetric_Tree/101_Symmetric_Tree.java" target="_blank">101_Symmetric_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/102_Binary_Tree_Level_Order_Traversal/102_Binary_Tree_Level_Order_Traversal.java" target="_blank">102_Binary_Tree_Level_Order_Traversal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/103_Binary_Tree_Zigzag_Level_Order_Traversal/103_Binary_Tree_Zigzag_Level_Order_Traversal.java" target="_blank">103_Binary_Tree_Zigzag_Level_Order_Traversal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/104_Maximum_Depth_of_Binary_Tree/104_Maximum_Depth_of_Binary_Tree.java" target="_blank">104_Maximum_Depth_of_Binary_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java" target="_blank">105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java" target="_blank">106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/107_Binary_Tree_Level_Order_Traversal_II/107_Binary_Tree_Level_Order_Traversal_II.java" target="_blank">107_Binary_Tree_Level_Order_Traversal_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/108_Convert_Sorted_Array_to_Binary_Search_Tree/108_Convert_Sorted_Array_to_Binary_Search_Tree.java" target="_blank">108_Convert_Sorted_Array_to_Binary_Search_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/109_Convert_Sorted_List_to_Binary_Search_Tree/109_Convert_Sorted_List_to_Binary_Search_Tree.java" target="_blank">109_Convert_Sorted_List_to_Binary_Search_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/110_Balanced_Binary_Tree/110_Balanced_Binary_Tree.java" target="_blank">110_Balanced_Binary_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/111_Minimum_Depth_of_Binary_Tree/111_Minimum_Depth_of_Binary_Tree.java" target="_blank">111_Minimum_Depth_of_Binary_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/112_Path_Sum_/112_Path_Sum_.java" target="_blank">112_Path_Sum_</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/113_Path_Sum_II_/113_Path_Sum_II_.java" target="_blank">113_Path_Sum_II_</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/114_Flatten_Binary_Tree_to_Linked_List/114_Flatten_Binary_Tree_to_Linked_List.java" target="_blank">114_Flatten_Binary_Tree_to_Linked_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/116_Populating_Next_Right_Pointers_in_Each_Node/116_Populating_Next_Right_Pointers_in_Each_Node.java" target="_blank">116_Populating_Next_Right_Pointers_in_Each_Node</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/118_Pascal's_Triangle/118_Pascal's_Triangle.java" target="_blank">118_Pascal's_Triangle</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/119_Pascal's_Triangle_II/119_Pascal's_Triangle_II.java" target="_blank">119_Pascal's_Triangle_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/120_Triangle/120_Triangle.java" target="_blank">120_Triangle</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/121_Best_Time_to_Buy_and_Sell_Stock/121_Best_Time_to_Buy_and_Sell_Stock.java" target="_blank">121_Best_Time_to_Buy_and_Sell_Stock</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/122_Best_Time_to_Buy_and_Sell_Stock_II/122_Best_Time_to_Buy_and_Sell_Stock_II.java" target="_blank">122_Best_Time_to_Buy_and_Sell_Stock_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/124_Binary_Tree_Maximum_Path_Sum/124_Binary_Tree_Maximum_Path_Sum.java" target="_blank">124_Binary_Tree_Maximum_Path_Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/125_Valid_Palindrome/125_Valid_Palindrome.java" target="_blank">125_Valid_Palindrome</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/129_Sum_Root_to_Leaf_Numbers/129_Sum_Root_to_Leaf_Numbers.java" target="_blank">129_Sum_Root_to_Leaf_Numbers</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/133_Clone_Graph/133_Clone_Graph.java" target="_blank">133_Clone_Graph</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/136_Single_Number/136_Single_Number.java" target="_blank">136_Single_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/137_Single_Number_II/137_Single_Number_II.java" target="_blank">137_Single_Number_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/141_Linked_List_Cycle/141_Linked_List_Cycle.java" target="_blank">141_Linked_List_Cycle</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/142_Linked_List_Cycle_II/142_Linked_List_Cycle_II.java" target="_blank">142_Linked_List_Cycle_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/144_Binary_Tree_Preorder_Traversal_/144_Binary_Tree_Preorder_Traversal_.java" target="_blank">144_Binary_Tree_Preorder_Traversal_</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/146_LRU_Cache/146_LRU_Cache.java" target="_blank">146_LRU_Cache</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/150_Evaluate_Reverse_Polish_Notation/150_Evaluate_Reverse_Polish_Notation.java" target="_blank">150_Evaluate_Reverse_Polish_Notation</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/151_Reverse_Words_in_a_String/151_Reverse_Words_in_a_String.java" target="_blank">151_Reverse_Words_in_a_String</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/152_Maximum_Product_Subarray/152_Maximum_Product_Subarray.java" target="_blank">152_Maximum_Product_Subarray</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/153_Find_Minimum_in_Rotated_Sorted_Array/153_Find_Minimum_in_Rotated_Sorted_Array.java" target="_blank">153_Find_Minimum_in_Rotated_Sorted_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/154_Find_Minimum_in_Rotated_Sorted_Array_II/154_Find_Minimum_in_Rotated_Sorted_Array_II.java" target="_blank">154_Find_Minimum_in_Rotated_Sorted_Array_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/155_Min_Stack/155_Min_Stack.java" target="_blank">155_Min_Stack</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/160_Intersection_of_Two_Linked_Lists/160_Intersection_of_Two_Linked_Lists.java" target="_blank">160_Intersection_of_Two_Linked_Lists</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/162_Find_Peak_Element/162_Find_Peak_Element.java" target="_blank">162_Find_Peak_Element</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/165_Compare_Version_Numbers/165_Compare_Version_Numbers.java" target="_blank">165_Compare_Version_Numbers</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/167_Two_Sum_II_Input_array_is_sorted/167_Two_Sum_II_Input_array_is_sorted.java" target="_blank">167_Two_Sum_II_Input_array_is_sorted</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/169_Majority_Element/169_Majority_Element.java" target="_blank">169_Majority_Element</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/171_Excel_Sheet_Column_Number/171_Excel_Sheet_Column_Number.java" target="_blank">171_Excel_Sheet_Column_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/173_Binary_Search_Tree_Iterator/173_Binary_Search_Tree_Iterator.java" target="_blank">173_Binary_Search_Tree_Iterator</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/179_Largest_Number/179_Largest_Number.java" target="_blank">179_Largest_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/189_Rotate_Array/189_Rotate_Array.java" target="_blank">189_Rotate_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/190_Reverse_Bits/190_Reverse_Bits.java" target="_blank">190_Reverse_Bits</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/191_Number_of_1_Bits/191_Number_of_1_Bits.java" target="_blank">191_Number_of_1_Bits</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/198_House_Robber/198_House_Robber.java" target="_blank">198_House_Robber</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/200_Number_of_Islands/200_Number_of_Islands.java" target="_blank">200_Number_of_Islands</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/202_Happy_Number/202_Happy_Number.java" target="_blank">202_Happy_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/203_Remove_Linked_List_Elements/203_Remove_Linked_List_Elements.java" target="_blank">203_Remove_Linked_List_Elements</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/204_Count_Primes/204_Count_Primes.java" target="_blank">204_Count_Primes</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/205_Isomorphic_Strings/205_Isomorphic_Strings.java" target="_blank">205_Isomorphic_Strings</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/206_Reverse_Linked_List/206_Reverse_Linked_List.java" target="_blank">206_Reverse_Linked_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/209_Minimum_Size_Subarray_Sum/209_Minimum_Size_Subarray_Sum.java" target="_blank">209_Minimum_Size_Subarray_Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/211_Add_and_Search_Word_Data_structure_design/211_Add_and_Search_Word_Data_structure_design.java" target="_blank">211_Add_and_Search_Word_Data_structure_design</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/215_Kth_Largest_Element_in_an_Array/215_Kth_Largest_Element_in_an_Array.java" target="_blank">215_Kth_Largest_Element_in_an_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/216_Combination_Sum_III/216_Combination_Sum_III.java" target="_blank">216_Combination_Sum_III</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/217_Contains_Duplicate/217_Contains_Duplicate.java" target="_blank">217_Contains_Duplicate</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/219_Contains_Duplicate_II/219_Contains_Duplicate_II.java" target="_blank">219_Contains_Duplicate_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/221_Maximal_Square/221_Maximal_Square.java" target="_blank">221_Maximal_Square</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/222_Count_Complete_Tree_Nodes/222_Count_Complete_Tree_Nodes.java" target="_blank">222_Count_Complete_Tree_Nodes</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/225_Implement_Stack_using_Queues/225_Implement_Stack_using_Queues.java" target="_blank">225_Implement_Stack_using_Queues</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/226_Invert_Binary_Tree/226_Invert_Binary_Tree.java" target="_blank">226_Invert_Binary_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/228_Summary_Ranges/228_Summary_Ranges.java" target="_blank">228_Summary_Ranges</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/229_Majority_Element_II/229_Majority_Element_II.java" target="_blank">229_Majority_Element_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/230_Kth_Smallest_Element_in_a_BST_/230_Kth_Smallest_Element_in_a_BST_.java" target="_blank">230_Kth_Smallest_Element_in_a_BST_</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/231_Power_of_Two/231_Power_of_Two.java" target="_blank">231_Power_of_Two</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/232_Implement_Queue_using_Stack/232_Implement_Queue_using_Stack.java" target="_blank">232_Implement_Queue_using_Stack</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/234_Palindrome_Linked_List/234_Palindrome_Linked_List.java" target="_blank">234_Palindrome_Linked_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree/235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java" target="_blank">235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.java" target="_blank">237_Delete_Node_in_a_Linked_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/238_Product_of_Array_Except_Self/238_Product_of_Array_Except_Self.java" target="_blank">238_Product_of_Array_Except_Self</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/240_Search_a_2D_Matrix_II/240_Search_a_2D_Matrix_II.java" target="_blank">240_Search_a_2D_Matrix_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/242_Valid_Anagram/242_Valid_Anagram.java" target="_blank">242_Valid_Anagram</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/257_Binary_Tree_Paths/257_Binary_Tree_Paths.java" target="_blank">257_Binary_Tree_Paths</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/258_Add_Digits_/258_Add_Digits_.java" target="_blank">258_Add_Digits_</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/260_Single_Number_III/260_Single_Number_III.java" target="_blank">260_Single_Number_III</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/263_Ugly_Number/263_Ugly_Number.java" target="_blank">263_Ugly_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/264_Ugly_Number_II/264_Ugly_Number_II.java" target="_blank">264_Ugly_Number_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/268_Missing_Number/268_Missing_Number.java" target="_blank">268_Missing_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/268_Missing_Number[NOT_TEST]/268_Missing_Number[NOT_TEST].java" target="_blank">268_Missing_Number[NOT_TEST]</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/274_H-Index/274_H-Index.java" target="_blank">274_H-Index</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/278_First_Bad_Version/278_First_Bad_Version.java" target="_blank">278_First_Bad_Version</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/283_Move_Zeroes/283_Move_Zeroes.java" target="_blank">283_Move_Zeroes</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.java" target="_blank">287_Find_the_Duplicate_Number</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/289_Game_of_Life/289_Game_of_Life.java" target="_blank">289_Game_of_Life</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/290_Word_Pattern/290_Word_Pattern.java" target="_blank">290_Word_Pattern</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/292_Nim_Game/292_Nim_Game.java" target="_blank">292_Nim_Game</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/295_Find_Median_from_Data_Stream/295_Find_Median_from_Data_Stream.java" target="_blank">295_Find_Median_from_Data_Stream</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/297_Serialize_and_Deserialize_Binary_Tree/297_Serialize_and_Deserialize_Binary_Tree.java" target="_blank">297_Serialize_and_Deserialize_Binary_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/299_Bulls_and_Cows/299_Bulls_and_Cows.java" target="_blank">299_Bulls_and_Cows</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/300_Longest_Increasing_Subsequence/300_Longest_Increasing_Subsequence.java" target="_blank">300_Longest_Increasing_Subsequence</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/303_Range_Sum_Query_Immutable/303_Range_Sum_Query_Immutable.java" target="_blank">303_Range_Sum_Query_Immutable</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/326_Power_of_Three/326_Power_of_Three.java" target="_blank">326_Power_of_Three</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/328_Odd_Even_Linked_List/328_Odd_Even_Linked_List.java" target="_blank">328_Odd_Even_Linked_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/331_Verify_Preorder_Serialization_of_a_Binary_Tree/331_Verify_Preorder_Serialization_of_a_Binary_Tree.java" target="_blank">331_Verify_Preorder_Serialization_of_a_Binary_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/334_Increasing_Triplet_Subsequence/334_Increasing_Triplet_Subsequence.java" target="_blank">334_Increasing_Triplet_Subsequence</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/338_Counting_Bits/338_Counting_Bits.java" target="_blank">338_Counting_Bits</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/341_Flatten_Nested_List_Iterator/341_Flatten_Nested_List_Iterator.java" target="_blank">341_Flatten_Nested_List_Iterator</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/342_Power_of_Four_/342_Power_of_Four_.java" target="_blank">342_Power_of_Four_</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/344_Reverse_String/344_Reverse_String.java" target="_blank">344_Reverse_String</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/345_Reverse_Vowels_of_a_String/345_Reverse_Vowels_of_a_String.java" target="_blank">345_Reverse_Vowels_of_a_String</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/347_Top_K_Frequent_Elements/347_Top_K_Frequent_Elements.java" target="_blank">347_Top_K_Frequent_Elements</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/349_Intersection_of_Two_Arrays/349_Intersection_of_Two_Arrays.java" target="_blank">349_Intersection_of_Two_Arrays</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/350_Intersection_of_Two_Arrays_II/350_Intersection_of_Two_Arrays_II.java" target="_blank">350_Intersection_of_Two_Arrays_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/367_Valid_Perfect_Square/367_Valid_Perfect_Square.java" target="_blank">367_Valid_Perfect_Square</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/368_Largest_Divisible_Subset/368_Largest_Divisible_Subset.java" target="_blank">368_Largest_Divisible_Subset</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/371_Sum_of_Two_Integers/371_Sum_of_Two_Integers.java" target="_blank">371_Sum_of_Two_Integers</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/373_Find_K_Pairs_with_Smallest_Sums/373_Find_K_Pairs_with_Smallest_Sums.java" target="_blank">373_Find_K_Pairs_with_Smallest_Sums</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/374_Guess_Number_Higher_or_Lower/374_Guess_Number_Higher_or_Lower.java" target="_blank">374_Guess_Number_Higher_or_Lower</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/378_Kth_Smallest_Element_in_a_Sorted_Matrix/378_Kth_Smallest_Element_in_a_Sorted_Matrix.java" target="_blank">378_Kth_Smallest_Element_in_a_Sorted_Matrix</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/380_Insert_Delete_GetRandom_O(1)/380_Insert_Delete_GetRandom_O(1).java" target="_blank">380_Insert_Delete_GetRandom_O(1)</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/382_Linked_List_Random_Node/382_Linked_List_Random_Node.java" target="_blank">382_Linked_List_Random_Node</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/383_Ransom_Note/383_Ransom_Note.java" target="_blank">383_Ransom_Note</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/384_Shuffle_an_Array/384_Shuffle_an_Array.java" target="_blank">384_Shuffle_an_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/385_Mini_Parser/385_Mini_Parser.java" target="_blank">385_Mini_Parser</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/387_First_Unique_Character_in_a_String/387_First_Unique_Character_in_a_String.java" target="_blank">387_First_Unique_Character_in_a_String</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/389_Find_the_Difference/389_Find_the_Difference.java" target="_blank">389_Find_the_Difference</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/392_Is_Subsequence/392_Is_Subsequence.java" target="_blank">392_Is_Subsequence</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/394_Decode_String/394_Decode_String.java" target="_blank">394_Decode_String</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/397_Integer_Replacement/397_Integer_Replacement.java" target="_blank">397_Integer_Replacement</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/404_Sum_of_Left_Leaves/404_Sum_of_Left_Leaves.java" target="_blank">404_Sum_of_Left_Leaves</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/405_Convert_a_Number_to_Hexadecimal/405_Convert_a_Number_to_Hexadecimal.java" target="_blank">405_Convert_a_Number_to_Hexadecimal</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/406_Queue_Reconstruction_by_Height/406_Queue_Reconstruction_by_Height.java" target="_blank">406_Queue_Reconstruction_by_Height</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/409_Longest_Palindrome/409_Longest_Palindrome.java" target="_blank">409_Longest_Palindrome</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/412_Fizz_Buzz/412_Fizz_Buzz.java" target="_blank">412_Fizz_Buzz</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/414_Third_Maximum_Number[MORE_SOLUTION]/414_Third_Maximum_Number[MORE_SOLUTION].java" target="_blank">414_Third_Maximum_Number[MORE_SOLUTION]</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/415_Add_Strings/415_Add_Strings.java" target="_blank">415_Add_Strings</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/434_Number_of_Segments_in_a_String/434_Number_of_Segments_in_a_String.java" target="_blank">434_Number_of_Segments_in_a_String</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/437_Path_Sum_III/437_Path_Sum_III.java" target="_blank">437_Path_Sum_III</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/438_Find_All_Anagrams_in_a_String/438_Find_All_Anagrams_in_a_String.java" target="_blank">438_Find_All_Anagrams_in_a_String</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/441_Arranging_Coins/441_Arranging_Coins.java" target="_blank">441_Arranging_Coins</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/442_Find_All_Duplicates_in_an_Array/442_Find_All_Duplicates_in_an_Array.java" target="_blank">442_Find_All_Duplicates_in_an_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/445_Add_Two_Numbers_II/445_Add_Two_Numbers_II.java" target="_blank">445_Add_Two_Numbers_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/447_Number_of_Boomerangs/447_Number_of_Boomerangs.java" target="_blank">447_Number_of_Boomerangs</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/448_Find_All_Numbers_Disappeared_in_an_Array/448_Find_All_Numbers_Disappeared_in_an_Array.java" target="_blank">448_Find_All_Numbers_Disappeared_in_an_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/451_Sort_Characters_By_Frequency/451_Sort_Characters_By_Frequency.java" target="_blank">451_Sort_Characters_By_Frequency</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/453_Minimum_Moves_to_Equal_Array_Elements/453_Minimum_Moves_to_Equal_Array_Elements.java" target="_blank">453_Minimum_Moves_to_Equal_Array_Elements</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/454_4Sum_II/454_4Sum_II.java" target="_blank">454_4Sum_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/455_-._Assign_Cookies/455_-._Assign_Cookies.java" target="_blank">455_-._Assign_Cookies</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/459_Repeated_Substring_Pattern/459_Repeated_Substring_Pattern.java" target="_blank">459_Repeated_Substring_Pattern</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/461_Hamming_Distance/461_Hamming_Distance.java" target="_blank">461_Hamming_Distance</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/462_Minimum_Moves_to_Equal_Array_Elements_II/462_Minimum_Moves_to_Equal_Array_Elements_II.java" target="_blank">462_Minimum_Moves_to_Equal_Array_Elements_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/463_Island_Perimeter/463_Island_Perimeter.java" target="_blank">463_Island_Perimeter</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/475_Heaters/475_Heaters.java" target="_blank">475_Heaters</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/476_Number_Complement_Add_to_List/476_Number_Complement_Add_to_List.java" target="_blank">476_Number_Complement_Add_to_List</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/477_Total_Hamming_Distance/477_Total_Hamming_Distance.java" target="_blank">477_Total_Hamming_Distance</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/480_Sliding_Window_Median/480_Sliding_Window_Median.java" target="_blank">480_Sliding_Window_Median</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/485_Max_Consecutive_Ones/485_Max_Consecutive_Ones.java" target="_blank">485_Max_Consecutive_Ones</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/492_Construct_the_Rectangle/492_Construct_the_Rectangle.java" target="_blank">492_Construct_the_Rectangle</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/494_Target_Sum/494_Target_Sum.java" target="_blank">494_Target_Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/495_Teemo_Attacking/495_Teemo_Attacking.java" target="_blank">495_Teemo_Attacking</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/496_Next_Greater_Element_I/496_Next_Greater_Element_I.java" target="_blank">496_Next_Greater_Element_I</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/498_Diagonal_Traverse/498_Diagonal_Traverse.java" target="_blank">498_Diagonal_Traverse</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/500_Keyboard_Row/500_Keyboard_Row.java" target="_blank">500_Keyboard_Row</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/501_Find_Mode_in_Binary_Search_Tree/501_Find_Mode_in_Binary_Search_Tree.java" target="_blank">501_Find_Mode_in_Binary_Search_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/504_Base_7/504_Base_7.java" target="_blank">504_Base_7</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/506_Relative_Ranks/506_Relative_Ranks.java" target="_blank">506_Relative_Ranks</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/508_Most_Frequent_Subtree_Sum/508_Most_Frequent_Subtree_Sum.java" target="_blank">508_Most_Frequent_Subtree_Sum</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/513_Find_Bottom_Left_Tree_Value/513_Find_Bottom_Left_Tree_Value.java" target="_blank">513_Find_Bottom_Left_Tree_Value</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/515_Find_Largest_Value_in_Each_Tree_Row/515_Find_Largest_Value_in_Each_Tree_Row.java" target="_blank">515_Find_Largest_Value_in_Each_Tree_Row</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/520_Detect_Capital/520_Detect_Capital.java" target="_blank">520_Detect_Capital</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/521_Longest_Uncommon_Subsequence_I/521_Longest_Uncommon_Subsequence_I.java" target="_blank">521_Longest_Uncommon_Subsequence_I</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/525_Contiguous_Array/525_Contiguous_Array.java" target="_blank">525_Contiguous_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/530_Minimum_Absolute_Difference_in_BST/530_Minimum_Absolute_Difference_in_BST.java" target="_blank">530_Minimum_Absolute_Difference_in_BST</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/532_K-diff_Pairs_in_an_Array/532_K-diff_Pairs_in_an_Array.java" target="_blank">532_K-diff_Pairs_in_an_Array</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/535_Encode_and_Decode_TinyURL/535_Encode_and_Decode_TinyURL.java" target="_blank">535_Encode_and_Decode_TinyURL</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/538_Convert_BST_to_Greater_Tree/538_Convert_BST_to_Greater_Tree.java" target="_blank">538_Convert_BST_to_Greater_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/539_Minimum_Time_Difference/539_Minimum_Time_Difference.java" target="_blank">539_Minimum_Time_Difference</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/541_Reverse_String_II/541_Reverse_String_II.java" target="_blank">541_Reverse_String_II</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/543_Diameter_of_Binary_Tree/543_Diameter_of_Binary_Tree.java" target="_blank">543_Diameter_of_Binary_Tree</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/547_Friend_Circles/547_Friend_Circles.java" target="_blank">547_Friend_Circles</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/551_Student_Attendance_Record_I/551_Student_Attendance_Record_I.java" target="_blank">551_Student_Attendance_Record_I</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/554_Brick_Wall/554_Brick_Wall.java" target="_blank">554_Brick_Wall</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/557_Reverse_Words_in_a_String_III/557_Reverse_Words_in_a_String_III.java" target="_blank">557_Reverse_Words_in_a_String_III</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/561_Array_Partition_I/561_Array_Partition_I.java" target="_blank">561_Array_Partition_I</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/563_Binary_Tree_Tilt/563_Binary_Tree_Tilt.java" target="_blank">563_Binary_Tree_Tilt</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/566_Reshape_the_Matrix/566_Reshape_the_Matrix.java" target="_blank">566_Reshape_the_Matrix</a>
+* <a href="https://github.com/LLihao/algorithm-practice/blob/master/LeetCode/575_Distribute_Candies/575_Distribute_Candies.java" target="_blank">575_Distribute_Candies</a>
 
-## Day - 01
-* [142_o1-check-power-of-2](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/142_o1-check-power-of-2/o1-check-power-of-2.java)
-* [181_flip-bits](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/181_flip-bits/flip-bits.java)
-* [31_partition-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/31_partition-array/partition-array.java)
-* [384_longest-substring-without-repeating-characters](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/384_longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.java)
-* [40_implement-queue-by-two-stacks](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/40_implement-queue-by-two-stacks/implement-queue-by-two-stacks.java)
-* [469_identical-binary-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/469_identical-binary-tree/identical-binary-tree.java)
-* [657_insert-delete-getrandom-o1](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/657_insert-delete-getrandom-o1/insert-delete-getrandom-o1.java)
-* [661_convert-bst-to-greater-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/661_convert-bst-to-greater-tree/convert-bst-to-greater-tree.java)
-* [74_first-bad-version](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/74_first-bad-version/first-bad-version.java)
-* [87_remove-node-in-binary-search-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/87_remove-node-in-binary-search-tree/remove-node-in-binary-search-tree.java)
+---
 
-## Day - 02
-* [114_unique-paths](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/114_unique-paths/unique-paths.java)
-* [11_search-range-in-binary-search-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/11_search-range-in-binary-search-tree/search-range-in-binary-search-tree.java)
-* [173_insertion-sort-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/173_insertion-sort-list/insertion-sort-list.java)
-* [184_largest-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/184_largest-number/largest-number.java)
-* [186_max-points-on-a-line](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/186_max-points-on-a-line/max-points-on-a-line.java)
-* [206_interval-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/206_interval-sum/interval-sum.java)
-* [360_sliding-window-median](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/360_sliding-window-median/sliding-window-median.java)
-* [406_minimum-size-subarray-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/406_minimum-size-subarray-sum/minimum-size-subarray-sum.java)
-* [428_powx-n](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/428_powx-n/powx-n.java)
-* [94_binary-tree-maximum-path-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/94_binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.java)
+# Cracking the Coding Interview
 
-## Day - 03
-* [161_rotate-image](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/161_rotate-image/rotate-image.java)
-* [177_convert-sorted-array-to-binary-search-tree-with-minimal-height](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/177_convert-sorted-array-to-binary-search-tree-with-minimal-height/convert-sorted-array-to-binary-search-tree-with-minimal-height.java)
-* [196_find-the-missing-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/196_find-the-missing-number/find-the-missing-number.java)
-* [36_reverse-linked-list-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/36_reverse-linked-list-ii/reverse-linked-list-ii.java)
-* [373_partition-array-by-odd-and-even](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/373_partition-array-by-odd-and-even/partition-array-by-odd-and-even.java)
-* [588_partition-equal-subset-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/588_partition-equal-subset-sum/partition-equal-subset-sum.java)
-* [608_two-sum-input-array-is-sorted](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/608_two-sum-input-array-is-sorted/two-sum-input-array-is-sorted.java)
-* [640_edit-distance-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/640_edit-distance-ii/edit-distance-ii.java)
-* [7_binary-tree-serialization](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/7_binary-tree-serialization/binary-tree-serialization.java)
-* [85_insert-node-in-a-binary-search-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/85_insert-node-in-a-binary-search-tree/insert-node-in-a-binary-search-tree.java)
+### 00_Sorting_Algorithms:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/BubbleSort.java" target="_blank">BubbleSort</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/BucketSort.java" target="_blank">BucketSort</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/CountSort.java" target="_blank">CountSort</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/HeapSort.java" target="_blank">HeapSort</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/InsertionSort.java" target="_blank">InsertionSort</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/MergeSort.java" target="_blank">MergeSort</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/QuickSort.java" target="_blank">QuickSort</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/RadixSort.java" target="_blank">RadixSort</a>
 
-## Day - 04
-* [162_set-matrix-zeroes](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/162_set-matrix-zeroes/set-matrix-zeroes.java)
-* [187_gas-station](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/187_gas-station/gas-station.java)
-* [189_first-missing-positive](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/189_first-missing-positive/first-missing-positive.java)
-* [363_trapping-rain-water](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/363_trapping-rain-water/trapping-rain-water.java)
-* [452_remove-linked-list-elements](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/452_remove-linked-list-elements/remove-linked-list-elements.java)
-* [473_add-and-search-word](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/473_add-and-search-word/add-and-search-word.java)
-* [49_sort-letters-by-case](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/49_sort-letters-by-case/sort-letters-by-case.java)
-* [515_paint-house](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/515_paint-house/paint-house.java)
-* [66_binary-tree-preorder-traversal](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/66_binary-tree-preorder-traversal/binary-tree-preorder-traversal.java)
-* [67_binary-tree-inorder-traversal](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/67_binary-tree-inorder-traversal/binary-tree-inorder-traversal.java)
+### 01_Arrays_and_Strings:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/CheckPermutation.java" target="_blank">CheckPermutation</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/IsUnique.java" target="_blank">IsUnique</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/OneAway.java" target="_blank">OneAway</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/PalindromePermutation.java" target="_blank">PalindromePermutation</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/RotateMatrix.java" target="_blank">RotateMatrix</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/StringCompression.java" target="_blank">StringCompression</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/StringRotation.java" target="_blank">StringRotation</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/URLify.java" target="_blank">URLify</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/ZeroMatrix.java" target="_blank">ZeroMatrix</a>
 
-## Day - 05
-* [122_largest-rectangle-in-histogram](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/122_largest-rectangle-in-histogram/largest-rectangle-in-histogram.java)
-* [137_clone-graph](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/137_clone-graph/clone-graph.java)
-* [167_add-two-numbers](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/167_add-two-numbers/add-two-numbers.java)
-* [245_subtree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/245_subtree/subtree.java)
-* [387_the-smallest-difference](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/387_the-smallest-difference/the-smallest-difference.java)
-* [480_binary-tree-paths](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/480_binary-tree-paths/binary-tree-paths.java)
-* [508_wiggle-sort](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/508_wiggle-sort/wiggle-sort.java)
-* [511_swap-two-nodes-in-linked-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/511_swap-two-nodes-in-linked-list/swap-two-nodes-in-linked-list.java)
-* [516_paint-house-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/516_paint-house-ii/paint-house-ii.java)
-* [647_substring-anagrams](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/647_substring-anagrams/substring-anagrams.java)
+### 02_Linked_Lists:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/DeleteMiddleNode.java" target="_blank">DeleteMiddleNode</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Intersection.java" target="_blank">Intersection</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/LoopDetection.java" target="_blank">LoopDetection</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Node.java" target="_blank">Node</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Palindrome.java" target="_blank">Palindrome</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Partition.java" target="_blank">Partition</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/RemoveDuplicates.java" target="_blank">RemoveDuplicates</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/ReturnKthToLast.java" target="_blank">ReturnKthToLast</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/SumLists.java" target="_blank">SumLists</a>
 
-## Day - 06
-* [105_copy-list-with-random-pointer](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/105_copy-list-with-random-pointer/copy-list-with-random-pointer.java)
-* [110_minimum-path-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/110_minimum-path-sum/minimum-path-sum.java)
-* [160_find-minimum-in-rotated-sorted-array-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/160_find-minimum-in-rotated-sorted-array-ii/find-minimum-in-rotated-sorted-array-ii.java)
-* [211_string-permutation](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/211_string-permutation/string-permutation.java)
-* [380_intersection-of-two-linked-lists](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/380_intersection-of-two-linked-lists/intersection-of-two-linked-lists.java)
-* [38_search-a-2d-matrix-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/38_search-a-2d-matrix-ii/search-a-2d-matrix-ii.java)
-* [457_classical-binary-search](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/457_classical-binary-search/classical-binary-search.java)
-* [463_sort-integers](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/463_sort-integers/sort-integers.java)
-* [63_search-in-rotated-sorted-array-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/63_search-in-rotated-sorted-array-ii/search-in-rotated-sorted-array-ii.java)
-* [6_merge-two-sorted-arrays](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/6_merge-two-sorted-arrays/merge-two-sorted-arrays.java)
+### 03_Stacks_and_Queues:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/AnimalShelter.java" target="_blank">AnimalShelter</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/QueueViaStacks.java" target="_blank">QueueViaStacks</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/SortStack.java" target="_blank">SortStack</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/StackMin.java" target="_blank">StackMin</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/StackOfPlates.java" target="_blank">StackOfPlates</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/ThreeInOne.java" target="_blank">ThreeInOne</a>
 
-## Day - 07
-* [125_backpack-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/125_backpack-ii/backpack-ii.java)
-* [375_clone-binary-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/375_clone-binary-tree/clone-binary-tree.java)
-* [39_recover-rotated-sorted-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/39_recover-rotated-sorted-array/recover-rotated-sorted-array.java)
-* [53_reverse-words-in-a-string](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/53_reverse-words-in-a-string/reverse-words-in-a-string.java)
-* [564_backpack-vi](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/564_backpack-vi/backpack-vi.java)
-* [603_largest-divisible-subset](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/603_largest-divisible-subset/largest-divisible-subset.java)
-* [88_lowest-common-ancestor](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/88_lowest-common-ancestor/lowest-common-ancestor.java)
-* [90_k-sum-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/90_k-sum-ii/k-sum-ii.java)
-* [92_backpack](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/92_backpack/backpack.java)
-* [95_validate-binary-search-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/95_validate-binary-search-tree/validate-binary-search-tree.java)
+### 04_Trees_and_Graphs:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/BSTSequences.java" target="_blank">BSTSequences</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/BuildOrder.java" target="_blank">BuildOrder</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/CheckBalanced.java" target="_blank">CheckBalanced</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/CheckSubtree.java" target="_blank">CheckSubtree</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/FirstCommonAncestor.java" target="_blank">FirstCommonAncestor</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/ListOfDepths.java" target="_blank">ListOfDepths</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/MinimalTree.java" target="_blank">MinimalTree</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Node.java" target="_blank">Node</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/PathsWithSum.java" target="_blank">PathsWithSum</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/RandomNode.java" target="_blank">RandomNode</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/RouteBetweenNodes.java" target="_blank">RouteBetweenNodes</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Successor.java" target="_blank">Successor</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Tree.java" target="_blank">Tree</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/ValidateBST.java" target="_blank">ValidateBST</a>
 
-## Day - 08
-* [112_remove-duplicates-from-sorted-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/112_remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.java)
-* [14_first-position-of-target](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/14_first-position-of-target/first-position-of-target.java)
-* [156_merge-intervals](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/156_merge-intervals/merge-intervals.java)
-* [200_longest-palindromic-substring](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/200_longest-palindromic-substring/longest-palindromic-substring.java)
-* [249_count-of-smaller-number-before-itself](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/249_count-of-smaller-number-before-itself/count-of-smaller-number-before-itself.java)
-* [29_interleaving-string](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/29_interleaving-string/interleaving-string.java)
-* [371_print-numbers-by-recursion](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/371_print-numbers-by-recursion/print-numbers-by-recursion.java)
-* [436_maximal-square](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/436_maximal-square/maximal-square.java)
-* [46_majority-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/46_majority-number/majority-number.java)
-* [57_3sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/57_3sum/3sum.java)
+### 05_Bit_Manipulation:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/BinaryToString.java" target="_blank">BinaryToString</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Conversion.java" target="_blank">Conversion</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Debugger.java" target="_blank">Debugger</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/DrawLine.java" target="_blank">DrawLine</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/FlipBitToWin.java" target="_blank">FlipBitToWin</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Insertion.java" target="_blank">Insertion</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/NextNumber.java" target="_blank">NextNumber</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/PairwiseSwap.java" target="_blank">PairwiseSwap</a>
 
-## Day - 09
-* [134_lru-cache](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/134_lru-cache/lru-cache.java)
-* [135_combination-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/135_combination-sum/combination-sum.java)
-* [143_sort-colors-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/143_sort-colors-ii/sort-colors-ii.java)
-* [158_two-strings-are-anagrams](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/158_two-strings-are-anagrams/two-strings-are-anagrams.java)
-* [376_binary-tree-path-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/376_binary-tree-path-sum/binary-tree-path-sum.java)
-* [402_continuous-subarray-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/402_continuous-subarray-sum/continuous-subarray-sum.java)
-* [60_search-insert-position](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/60_search-insert-position/search-insert-position.java)
-* [62_search-in-rotated-sorted-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/62_search-in-rotated-sorted-array/search-in-rotated-sorted-array.java)
-* [80_median](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/80_median/median.java)
-* [96_partition-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/96_partition-list/partition-list.java)
+### 08_Recursion_and_Dynamic_Programming:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/MagicIndex.java" target="_blank">MagicIndex</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/PowerSet.java" target="_blank">PowerSet</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/RobotInGrid.java" target="_blank">RobotInGrid</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/TowerOfHanoi.java" target="_blank">TowerOfHanoi</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/TripleStep.java" target="_blank">TripleStep</a>
 
-## Day - 10
-* [153_combination-sum-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/153_combination-sum-ii/combination-sum-ii.java)
-* [15_permutations](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/15_permutations/permutations.java)
-* [16_permutations-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/16_permutations-ii/permutations-ii.java)
-* [17_subsets](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/17_subsets/subsets.java)
-* [18_subsets-ii]( https://github.com/LLihao/algorithm-practice/blob/master/LintCode/18_subsets-ii/subsets-ii.java)
-* [190_next-permutation-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/190_next-permutation-ii/next-permutation-ii.java)
-* [388_permutation-sequence](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/388_permutation-sequence/permutation-sequence.java)
-* [397_longest-increasing-continuous-subsequence]( https://github.com/LLihao/algorithm-practice/blob/master/LintCode/397_longest-increasing-continuous-subsequence/longest-increasing-continuous-subsequence.java)
-* [51_previous-permutation](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/51_previous-permutation/previous-permutation.java)
-* [52_next-permutation](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/52_next-permutation/next-permutation.java)
+### 10_Sorting_and_Searching:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/FindDuplicates.java" target="_blank">FindDuplicates</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/GroupAnagrams.java" target="_blank">GroupAnagrams</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/RotatedArray.java" target="_blank">RotatedArray</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedMatrixSearch.java" target="_blank">SortedMatrixSearch</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedMerge.java" target="_blank">SortedMerge</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedSearch.java" target="_blank">SortedSearch</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SparseSeach.java" target="_blank">SparseSeach</a>
 
-## Day - 11
-* [157_unique-characters](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/157_unique-characters/unique-characters.java)
-* [159_find-minimum-in-rotated-sorted-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/159_find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.java)
-* [172_remove-element](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/172_remove-element/remove-element.java)
-* [372_delete-node-in-the-middle-of-singly-linked-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/372_delete-node-in-the-middle-of-singly-linked-list/delete-node-in-the-middle-of-singly-linked-list.java)
-* [383_container-with-most-water](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/383_container-with-most-water/container-with-most-water.java)
-* [407_plus-one](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/407_plus-one/plus-one.java)
-* [535_house-robber-iii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/535_house-robber-iii/house-robber-iii.java)
-* [547_intersection-of-two-arrays](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/547_intersection-of-two-arrays/intersection-of-two-arrays.java)
-* [61_search-for-a-range](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/61_search-for-a-range/search-for-a-range.java)
-* [82_single-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/82_single-number/single-number.java)
-
-## Day - 12
-* [119_edit-distance](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/119_edit-distance/edit-distance.java)
-* [170_rotate-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/170_rotate-list/rotate-list.java)
-* [32_minimum-window-substring](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/32_minimum-window-substring/minimum-window-substring.java)
-* [374_spiral-matrix](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/374_spiral-matrix/spiral-matrix.java)
-* [415_valid-palindrome](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/415_valid-palindrome/valid-palindrome.java)
-* [433_number-of-islands](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/433_number-of-islands/number-of-islands.java)
-* [5_kth-largest-element](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/5_kth-largest-element/kth-largest-element.java)
-* [81_data-stream-median](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/81_data-stream-median/data-stream-median.java)
-* [86_binary-search-tree-iterator](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/86_binary-search-tree-iterator/binary-search-tree-iterator.java)
-* [8_rotate-string](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/8_rotate-string/rotate-string.java)
-
-## Day - 13
-* [123_word-search](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/123_word-search/word-search.java)
-* [13_strstr](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/13_strstr/strstr.java)
-* [149_best-time-to-buy-and-sell-stock](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/149_best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.java)
-* [207_interval-sum-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/207_interval-sum-ii/interval-sum-ii.java)
-* [248_count-of-smaller-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/248_count-of-smaller-number/count-of-smaller-number.java)
-* [442_implement-trie](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/442_implement-trie/implement-trie.java)
-* [450_reverse-nodes-in-k-group](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/450_reverse-nodes-in-k-group/reverse-nodes-in-k-group.java)
-* [451_swap-nodes-in-pairs](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/451_swap-nodes-in-pairs/swap-nodes-in-pairs.java)
-* [524_left-pad](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/524_left-pad/left-pad.java)
-* [71_binary-tree-zigzag-level-order-traversal](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/71_binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.java)
-
-## Day - 14
-* [100_remove-duplicates-from-sorted-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/100_remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java)
-* [179_update-bits](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/179_update-bits/update-bits.java)
-* [381_spiral-matrix-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/381_spiral-matrix-ii/spiral-matrix-ii.java)
-* [421_simplify-path](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/421_simplify-path/simplify-path.java)
-* [491_palindrome-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/491_palindrome-number/palindrome-number.java)
-* [55_compare-strings](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/55_compare-strings/compare-strings.java)
-* [646_first-position-unique-character](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/646_first-position-unique-character/first-position-unique-character.java)
-* [79_longest-common-substring](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/79_longest-common-substring/longest-common-substring.java)
-* [84_single-number-iii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/84_single-number-iii/single-number-iii.java)
-* [9_fizz-buzz](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/9_fizz-buzz/fizz-buzz.java)
-
-## Day - 15
-* [12_min-stack](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/12_min-stack/min-stack.java)
-* [1_a-b-problem](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/1_a-b-problem/a-b-problem.java)
-* [22_flatten-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/22_flatten-list/flatten-list.java)
-* [28_search-a-2d-matrix](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/28_search-a-2d-matrix/search-a-2d-matrix.java)
-* [35_reverse-linked-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/35_reverse-linked-list/reverse-linked-list.java)
-* [50_product-of-array-exclude-itself](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/50_product-of-array-exclude-itself/product-of-array-exclude-itself.java)
-* [58_4sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/58_4sum/4sum.java)
-* [64_merge-sorted-array](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/64_merge-sorted-array/merge-sorted-array.java)
-* [69_binary-tree-level-order-traversal](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/69_binary-tree-level-order-traversal/binary-tree-level-order-traversal.java)
-* [70_binary-tree-level-order-traversal-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/70_binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.java)
-
-## Day - 16
-* [102_linked-list-cycle](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/102_linked-list-cycle/linked-list-cycle.java)
-* [103_linked-list-cycle-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/103_linked-list-cycle-ii/linked-list-cycle-ii.java)
-* [104_merge-k-sorted-lists](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/104_merge-k-sorted-lists/merge-k-sorted-lists.java)
-* [56_two-sum](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/56_two-sum/two-sum.java)
-* [68_binary-tree-postorder-traversal](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/68_binary-tree-postorder-traversal/binary-tree-postorder-traversal.java)
-* [76_longest-increasing-subsequence](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/76_longest-increasing-subsequence/longest-increasing-subsequence.java)
-* [77_longest-common-subsequence](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/77_longest-common-subsequence/longest-common-subsequence.java)
-* [78_longest-common-prefix](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/78_longest-common-prefix/longest-common-prefix.java)
-* [83_single-number-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/83_single-number-ii/single-number-ii.java)
-* [93_balanced-binary-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/93_balanced-binary-tree/balanced-binary-tree.java)
-* [97_maximum-depth-of-binary-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/97_maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.java)
-
-## Day - 17
-* [106_convert-sorted-list-to-balanced-bst](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/106_convert-sorted-list-to-balanced-bst/convert-sorted-list-to-balanced-bst.java)
-* [109_triangle](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/109_triangle/triangle.java)
-* [111_climbing-stairs](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/111_climbing-stairs/climbing-stairs.java)
-* [113_remove-duplicates-from-sorted-list-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/113_remove-duplicates-from-sorted-list-ii/remove-duplicates-from-sorted-list-ii.java)
-* [115_unique-paths-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/115_unique-paths-ii/unique-paths-ii.java)
-* [116_jump-game](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/116_jump-game/jump-game.java)
-* [117_jump-game-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/117_jump-game-ii/jump-game-ii.java)
-* [130_heapify](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/130_heapify/heapify.java)
-* [141_sqrtx](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/141_sqrtx/sqrtx.java)
-* [148_sort-colors](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/148_sort-colors/sort-colors.java)
-* [150_best-time-to-buy-and-sell-stock-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/150_best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.java)
-* [152_combinations](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/152_combinations/combinations.java)
-* [155_minimum-depth-of-binary-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/155_minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.java)
-* [165_merge-two-sorted-lists](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/165_merge-two-sorted-lists/merge-two-sorted-lists.java)
-* [166_nth-to-last-node-in-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/166_nth-to-last-node-in-list/nth-to-last-node-in-list.java)
-* [171_anagrams](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/171_anagrams/anagrams.java)
-* [174_remove-nth-node-from-end-of-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/174_remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java)
-* [365_count-1-in-binary](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/365_count-1-in-binary/count-1-in-binary.java)
-* [366_fibonacci](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/366_fibonacci/fibonacci.java)
-* [392_house-robber](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/392_house-robber/house-robber.java)
-* [408_add-binary](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/408_add-binary/add-binary.java)
-* [413_reverse-integer](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/413_reverse-integer/reverse-integer.java)
-* [420_count-and-say](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/420_count-and-say/count-and-say.java)
-* [422_length-of-last-word](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/422_length-of-last-word/length-of-last-word.java)
-* [44_minimum-subarray](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/44_minimum-subarray/minimum-subarray.java)
-* [59_3sum-closest](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/59_3sum-closest/3sum-closest.java)
-* [133_longest-words](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/133_longest-words/longest-words.java)
-* [423_valid-parentheses](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/423_valid-parentheses/valid-parentheses.java)
-* [632_binary-tree-maximum-node](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/632_binary-tree-maximum-node/binary-tree-maximum-node.java)
-
-## Day - 18
-* [163_unique-binary-search-trees](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/163_unique-binary-search-trees/unique-binary-search-trees.java)
-* [175_invert-binary-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/175_invert-binary-tree/invert-binary-tree.java)
-* [204_singleton](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/204_singleton/singleton.java)
-* [41_maximum-subarray](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/41_maximum-subarray/maximum-subarray.java)
-* [453_flatten-binary-tree-to-linked-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/453_flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.java)
-* [47_majority-number-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/47_majority-number-ii/majority-number-ii.java)
-* [48_majority-number-iii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/48_majority-number-iii/majority-number-iii.java)
-* [517_ugly-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/517_ugly-number/ugly-number.java)
-* [539_move-zeroes](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/539_move-zeroes/move-zeroes.java)
-* [548_intersection-of-two-arrays-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/548_intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.java)
-* [569_add-digits](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/569_add-digits/add-digits.java)
-* [627_longest-palindrome](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/627_longest-palindrome/longest-palindrome.java)
-* [638_strings-homomorphism](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/638_strings-homomorphism/strings-homomorphism.java)
-* [655_big-integer-addition](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/655_big-integer-addition/big-integer-addition.java)
-* [2_trailing-zeros](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/2_trailing-zeros/trailing-zeros.java)
-* [488_happy-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/488_happy-number/happy-number.java)
-* [496_toy-factory](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/496_toy-factory/toy-factory.java)
-* [514_paint-fence](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/514_paint-fence/paint-fence.java)
-* [532_reverse-pairs](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/532_reverse-pairs/reverse-pairs.java)
-* [662_guess-number-game](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/662_guess-number-game/guess-number-game.java)
+### 16_Moderate:
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/BisectSquares.java" target="_blank">BisectSquares</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Calculator.java" target="_blank">Calculator</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/ContiguousSequence.java" target="_blank">ContiguousSequence</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/DivingBoard.java" target="_blank">DivingBoard</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/EnglishInt.java" target="_blank">EnglishInt</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/FactorialZeros.java" target="_blank">FactorialZeros</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Intersection.java" target="_blank">Intersection</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LRUCache.java" target="_blank">LRUCache</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LangtonsAnt.java" target="_blank">LangtonsAnt</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LivingPeople.java" target="_blank">LivingPeople</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/NumberMax.java" target="_blank">NumberMax</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/NumberSwapper.java" target="_blank">NumberSwapper</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Operations.java" target="_blank">Operations</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PairsWithSum.java" target="_blank">PairsWithSum</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PatternMatching.java" target="_blank">PatternMatching</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PondSizes.java" target="_blank">PondSizes</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Rand7.java" target="_blank">Rand7</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SmallestDifference.java" target="_blank">SmallestDifference</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SubSort.java" target="_blank">SubSort</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SumSwap.java" target="_blank">SumSwap</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/T9.java" target="_blank">T9</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/TicTacWin.java" target="_blank">TicTacWin</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/WordFrequencies.java" target="_blank">WordFrequencies</a>
+* <a href="https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/XmlEncoding.java" target="_blank">XmlEncoding</a>
