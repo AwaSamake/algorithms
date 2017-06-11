@@ -224,65 +224,24 @@
 * [423_valid-parentheses](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/423_valid-parentheses/valid-parentheses.java)
 * [632_binary-tree-maximum-node](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/632_binary-tree-maximum-node/binary-tree-maximum-node.java)
 
-## TODO:
-
 ## Day - 18
-* 033 - Medium -  N-Queens
-* 034 - Medium -  N-Queens II
-* 047 - Medium -  Majority Number II
-* 048 - Medium -  Majority Number III
-* 120 - Medium -  Word Ladder
-* 121 - Hard   -  Word Ladder II
-* 197 - Easy   -  Permutation Index
-* 198 - Medium -  Permutation Index II
-* 041 - Easy   -  Maximum Subarray
-* 042 - Medium -  Maximum Subarray II
-* 043 - Hard   -  Maximum Subarray III
-* 045 - Medium -  Maximum Subarray Difference
-* 138 - Easy   -  Subarray Sum
-* 139 - Medium -  Subarray Sum Closest
-* 617 - Medium -  Maximum Average Subarray
-
-## Day - 19
-* 072 - Medium -  Construct Binary Tree from Inorder and Postorder Traversal
-* 073 - Medium -  Construct Binary Tree from Preorder and Inorder Traversal
-* 163 - Medium -  Unique Binary Search Trees
-* 164 - Medium -  Unique Binary Search Trees II
-* 175 - Easy   -  Invert Binary Tree
-* 378 - Medium -  Convert Binary Search Tree to Doubly Linked List
-* 453 - Easy   -  Flatten Binary Tree to Linked List
-* 632 - Naive  -  Binary Tree Maximum Node
-* 204 - Easy   -  Singleton
-* 445 - Easy   -  Cosine Similarity
-* 514 - Easy   -  Paint Fence
-* 517 - Easy   -  Ugly Number
-* 539 - Easy   -  Move Zeroes
-* 548 - Easy   -  Intersection of Two Arrays II
-* 569 - Easy   -  Add Digits
-* 627 - Easy   -  Longest Palindrome
-* 638 - Easy   -  Strings Homomorphism
-* 655 - Easy   -  Big Integer Addition
-
-## Day - 20
-* 176 - Medium -  Route Between Two Nodes in Graph
-* 205 - Medium -  Interval Minimum Number
-* 221 - Medium -  Add Two Numbers II
-* 223 - Medium -  Palindrome Linked List
-* 379 - Medium -  Reorder array to construct the minimum number
-* 401 - Medium -  Kth Smallest Number in Sorted Matrix
-* 405 - Medium -  Submatrix Sum
-* 414 - Medium -  Divide Two Integers
-* 424 - Medium -  Evaluate Reverse Polish Notation
-* 477 - Medium -  Surrounded Regions
-* 528 - Medium -  Flatten Nested List Iterator
-* 532 - Medium -  Reverse Pairs
-* 534 - Medium -  House Robber II
-* 615 - Medium -  Course Schedule
-* 616 - Medium -  Course Schedule II
-* 633 - Medium -  Find the Duplicate Number
-* 636 - Medium -  132 Pattern
-* 643 - Medium -  System Longest File Path
-* 656 - Medium -  Big Integer multiplication
-* 412 - Hard   -  Candy
-* 602 - Hard   -  Russian Doll Envelopes
-* 653 - Hard   -  Add Operators
+* [163_unique-binary-search-trees](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/163_unique-binary-search-trees/unique-binary-search-trees.java)
+* [175_invert-binary-tree](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/175_invert-binary-tree/invert-binary-tree.java)
+* [204_singleton](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/204_singleton/singleton.java)
+* [41_maximum-subarray](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/41_maximum-subarray/maximum-subarray.java)
+* [453_flatten-binary-tree-to-linked-list](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/453_flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.java)
+* [47_majority-number-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/47_majority-number-ii/majority-number-ii.java)
+* [48_majority-number-iii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/48_majority-number-iii/majority-number-iii.java)
+* [517_ugly-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/517_ugly-number/ugly-number.java)
+* [539_move-zeroes](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/539_move-zeroes/move-zeroes.java)
+* [548_intersection-of-two-arrays-ii](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/548_intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.java)
+* [569_add-digits](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/569_add-digits/add-digits.java)
+* [627_longest-palindrome](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/627_longest-palindrome/longest-palindrome.java)
+* [638_strings-homomorphism](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/638_strings-homomorphism/strings-homomorphism.java)
+* [655_big-integer-addition](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/655_big-integer-addition/big-integer-addition.java)
+* [2_trailing-zeros](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/2_trailing-zeros/trailing-zeros.java)
+* [488_happy-number](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/488_happy-number/happy-number.java)
+* [496_toy-factory](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/496_toy-factory/toy-factory.java)
+* [514_paint-fence](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/514_paint-fence/paint-fence.java)
+* [532_reverse-pairs](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/532_reverse-pairs/reverse-pairs.java)
+* [662_guess-number-game](https://github.com/LLihao/algorithm-practice/blob/master/LintCode/662_guess-number-game/guess-number-game.java)
