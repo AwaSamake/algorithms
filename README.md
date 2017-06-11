@@ -1,112 +1,112 @@
 # Cracking the Coding Interview
 
 ### 00_Sorting_Algorithms:
-BubbleSort.java
-BucketSort.java
-CountSort.java
-HeapSort.java
-InsertionSort.java
-MergeSort.java
-QuickSort.java
-RadixSort.java
+[BubbleSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/BubbleSort.java)
+[BucketSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/BucketSort.java)
+[CountSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/CountSort.java)
+[HeapSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/HeapSort.java)
+[InsertionSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/InsertionSort.java)
+[MergeSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/MergeSort.java)
+[QuickSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/QuickSort.java)
+[RadixSort](https://github.com/LLihao/algorithms/blob/master/CC189/00_Sorting_Algorithms/RadixSort.java)
 
 ### 01_Arrays_and_Strings:
-CheckPermutation.java
-IsUnique.java
-OneAway.java
-PalindromePermutation.java
-RotateMatrix.java
-StringCompression.java
-StringRotation.java
-URLify.java
-ZeroMatrix.java
+[CheckPermutation](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/CheckPermutation.java)
+[IsUnique](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/IsUnique.java)
+[OneAway](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/OneAway.java)
+[PalindromePermutation](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/PalindromePermutation.java)
+[RotateMatrix](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/RotateMatrix.java)
+[StringCompression](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/StringCompression.java)
+[StringRotation](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/StringRotation.java)
+[URLify](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/URLify.java)
+[ZeroMatrix](https://github.com/LLihao/algorithms/blob/master/CC189/01_Arrays_and_Strings/ZeroMatrix.java)
 
 ### 02_Linked_Lists:
-DeleteMiddleNode.java
-Intersection.java
-LoopDetection.java
-Node.java
-Palindrome.java
-Partition.java
-RemoveDuplicates.java
-ReturnKthToLast.java
-SumLists.java
+[DeleteMiddleNode](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/DeleteMiddleNode.java)
+[Intersection](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Intersection.java)
+[LoopDetection](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/LoopDetection.java)
+[Node](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Node.java)
+[Palindrome](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Palindrome.java)
+[Partition](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/Partition.java)
+[RemoveDuplicates](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/RemoveDuplicates.java)
+[ReturnKthToLast](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/ReturnKthToLast.java)
+[SumLists](https://github.com/LLihao/algorithms/blob/master/CC189/02_Linked_Lists/SumLists.java)
 
 ### 03_Stacks_and_Queues:
-AnimalShelter.java
-QueueViaStacks.java
-SortStack.java
-StackMin.java
-StackOfPlates.java
-ThreeInOne.java
+[AnimalShelter](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/AnimalShelter.java)
+[QueueViaStacks](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/QueueViaStacks.java)
+[SortStack](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/SortStack.java)
+[StackMin](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/StackMin.java)
+[StackOfPlates](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/StackOfPlates.java)
+[ThreeInOne](https://github.com/LLihao/algorithms/blob/master/CC189/03_Stacks_and_Queues/ThreeInOne.java)
 
 ### 04_Trees_and_Graphs:
-BSTSequences.java
-BuildOrder.java
-CheckBalanced.java
-CheckSubtree.java
-FirstCommonAncestor.java
-ListOfDepths.java
-MinimalTree.java
-Node.java
-PathsWithSum.java
-RandomNode.java
-RouteBetweenNodes.java
-Successor.java
-Tree.java
-ValidateBST.java
+[BSTSequences](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/BSTSequences.java)
+[BuildOrder](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/BuildOrder.java)
+[CheckBalanced](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/CheckBalanced.java)
+[CheckSubtree](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/CheckSubtree.java)
+[FirstCommonAncestor](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/FirstCommonAncestor.java)
+[ListOfDepths](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/ListOfDepths.java)
+[MinimalTree](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/MinimalTree.java)
+[Node](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Node.java)
+[PathsWithSum](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/PathsWithSum.java)
+[RandomNode](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/RandomNode.java)
+[RouteBetweenNodes](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/RouteBetweenNodes.java)
+[Successor](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Successor.java)
+[Tree](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/Tree.java)
+[ValidateBST](https://github.com/LLihao/algorithms/blob/master/CC189/04_Trees_and_Graphs/ValidateBST.java)
 
 ### 05_Bit_Manipulation:
-BinaryToString.java
-Conversion.java
-Debugger.java
-DrawLine.java
-FlipBitToWin.java
-Insertion.java
-NextNumber.java
-PairwiseSwap.java
+[BinaryToString](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/BinaryToString.java)
+[Conversion](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Conversion.java)
+[Debugger](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Debugger.java)
+[DrawLine](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/DrawLine.java)
+[FlipBitToWin](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/FlipBitToWin.java)
+[Insertion](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/Insertion.java)
+[NextNumber](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/NextNumber.java)
+[PairwiseSwap](https://github.com/LLihao/algorithms/blob/master/CC189/05_Bit_Manipulation/PairwiseSwap.java)
 
 ### 08_Recursion_and_Dynamic_Programming:
-MagicIndex.java
-PowerSet.java
-RobotInGrid.java
-TowerOfHanoi.java
-TripleStep.java
+[MagicIndex](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/MagicIndex.java)
+[PowerSet](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/PowerSet.java)
+[RobotInGrid](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/RobotInGrid.java)
+[TowerOfHanoi](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/TowerOfHanoi.java)
+[TripleStep](https://github.com/LLihao/algorithms/blob/master/CC189/08_Recursion_and_Dynamic_Programming/TripleStep.java)
 
 ### 10_Sorting_and_Searching:
-FindDuplicates.java
-GroupAnagrams.java
-RotatedArray.java
-SortedMatrixSearch.java
-SortedMerge.java
-SortedSearch.java
-SparseSeach.java
+[FindDuplicates](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/FindDuplicates.java)
+[GroupAnagrams](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/GroupAnagrams.java)
+[RotatedArray](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/RotatedArray.java)
+[SortedMatrixSearch](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedMatrixSearch.java)
+[SortedMerge](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedMerge.java)
+[SortedSearch](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SortedSearch.java)
+[SparseSeach](https://github.com/LLihao/algorithms/blob/master/CC189/10_Sorting_and_Searching/SparseSeach.java)
 
 ### 16_Moderate:
-BisectSquares.java
-Calculator.java
-ContiguousSequence.java
-DivingBoard.java
-EnglishInt.java
-FactorialZeros.java
-Intersection.java
-LRUCache.java
-LangtonsAnt.java
-LivingPeople.java
-NumberMax.java
-NumberSwapper.java
-Operations.java
-PairsWithSum.java
-PatternMatching.java
-PondSizes.java
-Rand7.java
-SmallestDifference.java
-SubSort.java
-SumSwap.java
-T9.java
-TicTacWin.java
-WordFrequencies.java
-XmlEncoding.java
+[BisectSquares](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/BisectSquares.java)
+[Calculator](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Calculator.java)
+[ContiguousSequence](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/ContiguousSequence.java)
+[DivingBoard](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/DivingBoard.java)
+[EnglishInt](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/EnglishInt.java)
+[FactorialZeros](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/FactorialZeros.java)
+[Intersection](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Intersection.java)
+[LRUCache](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LRUCache.java)
+[LangtonsAnt](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LangtonsAnt.java)
+[LivingPeople](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/LivingPeople.java)
+[NumberMax](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/NumberMax.java)
+[NumberSwapper](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/NumberSwapper.java)
+[Operations](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Operations.java)
+[PairsWithSum](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PairsWithSum.java)
+[PatternMatching](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PatternMatching.java)
+[PondSizes](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/PondSizes.java)
+[Rand7](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/Rand7.java)
+[SmallestDifference](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SmallestDifference.java)
+[SubSort](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SubSort.java)
+[SumSwap](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/SumSwap.java)
+[T9](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/T9.java)
+[TicTacWin](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/TicTacWin.java)
+[WordFrequencies](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/WordFrequencies.java)
+[XmlEncoding](https://github.com/LLihao/algorithms/blob/master/CC189/16_Moderate/XmlEncoding.java)
 
 
 # LeetCode - 253 Problems
